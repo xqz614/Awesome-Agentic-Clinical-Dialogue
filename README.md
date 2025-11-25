@@ -151,6 +151,13 @@ This framework facilitates a systematic analysis of the intrinsic trade-offs bet
 - [MedConMA: A Confidence-Driven Multi-agent Framework for Medical Q&A](https://link.springer.com/chapter/10.1007/978-981-96-8180-8_33)
 - [MDTeamGPT: A Self-Evolving LLM-based Multi-Agent Framework for Multi-Disciplinary Team Medical Consultation](https://arxiv.org/abs/2503.13856)
 #### ⏫Self-evolution
+- [Agentic Medical Knowledge Graphs Enhance Medical Question Answering: Bridging the Gap Between LLMs and Evolving Medical Knowledge](https://arxiv.org/abs/2502.13010)
+- [Large language model agents can use tools to perform clinical calculations](https://www.nature.com/articles/s41746-025-01475-8)
+- [MACD: Multi-Agent Clinical Diagnosis with Self-Learned Knowledge for LLM](https://arxiv.org/abs/2509.20067)
+- [MedAgent-Pro: Towards Evidence-based Multi-modal Medical Diagnosis via Reasoning Agentic Workflow](https://arxiv.org/abs/2503.18968)
+- [Improving Self-training with Prototypical Learning for Source-Free Domain Adaptation on Clinical Text](https://aclanthology.org/2024.bionlp-1.1/)
+- [ReflecTool: Towards Reflection-Aware Tool-Augmented Clinical Agents](https://arxiv.org/abs/2410.17657)
+- [TAMA: A Human-AI Collaborative Thematic Analysis Framework Using Multi-Agent LLMs for Clinical Interviews](https://arxiv.org/abs/2503.20666)
 ### 🤖**VWA**
 #### 📊Planning
 #### 🧠Memory
