@@ -163,6 +163,7 @@ This framework facilitates a systematic analysis of the intrinsic trade-offs bet
 #### 🧠Memory
 #### 🧰Action
 #### 👥Cooperation
+- [Enhancing Clinical Trial Patient Matching through Knowledge Augmentation and Reasoning with Multi-Agent](https://arxiv.org/abs/2411.14637)
 #### ⏫Self-evolution
 ## 🤝 Contributing
 
