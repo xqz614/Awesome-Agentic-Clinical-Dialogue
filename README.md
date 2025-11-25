@@ -39,6 +39,25 @@ This framework facilitates a systematic analysis of the intrinsic trade-offs bet
 ## 📖 Resource List
 ### 🤖**LSC**
 #### 📊Planning
+- [BioGPT: generative pre-trained transformer for biomedical text generation and mining](https://arxiv.org/abs/2210.10341)
+- [BioBART: Pretraining and Evaluation of {A} Biomedical Generative Language Model](https://arxiv.org/abs/2204.03905)
+- [ClinicalBERT: Modeling Clinical Notes and Predicting Hospital Readmission](https://arxiv.org/abs/1904.05342)
+- [BioMegatron: Larger Biomedical Domain Language Model](https://arxiv.org/abs/2010.06060)
+- [Toward expert-level medical question answering with large language models](https://arxiv.org/abs/2305.09617)
+- [CoD, Towards an Interpretable Medical Agent using Chain of Diagnosis](https://arxiv.org/abs/2407.13301)
+- [HuaTuo: Tuning LLaMA Model with Chinese Medical Knowledge](https://arxiv.org/abs/2304.06975)
+- [Learning Causal Alignment for Reliable Disease Diagnosis](https://arxiv.org/abs/2310.01766)
+- [Reasoning with large language models for medical question answering](https://pubmed.ncbi.nlm.nih.gov/38960731/)
+- [Empowering biomedical discovery with AI agents](https://pubmed.ncbi.nlm.nih.gov/39486399/)
+- [A fast nonnegative autoencoder-based approach to latent feature analysis on high-dimensional and incomplete data](https://ieeexplore.ieee.org/abstract/document/10265117)
+- [Multiview latent space learning with progressively fine-tuned deep features for unsupervised domain adaptation](https://www.sciencedirect.com/science/article/pii/S0020025524001361)
+- [Autosurv: interpretable deep learning framework for cancer survival analysis incorporating clinical and multi-omics data](https://www.nature.com/articles/s41698-023-00494-6)
+- [Qilin-Med: Multi-stage Knowledge Injection Advanced Medical Large Language Model](https://arxiv.org/abs/2310.09089)
+- [Counterfactual reasoning using causal Bayesian networks as a healthcare governance tool](https://pubmed.ncbi.nlm.nih.gov/39531901/)
+- [Large Language Models for Medical Forecasting - Foresight 2](https://arxiv.org/abs/2412.10848)
+- [Ontology accelerates few-shot learning capability of large language model: A study in extraction of drug efficacy in a rare pediatric epilepsy](https://pubmed.ncbi.nlm.nih.gov/40311258/)
+- [A generalist medical language model for disease diagnosis assistance](https://www.nature.com/articles/s41591-024-03416-6)
+- [Taiyi: A Bilingual Fine-Tuned Large Language Model for Diverse Biomedical Tasks](https://arxiv.org/abs/2311.11608)
 #### 🧠Memory
 #### 👥Cooperation
 #### ⏫Self-evolution
