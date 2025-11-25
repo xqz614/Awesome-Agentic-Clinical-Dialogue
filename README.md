@@ -97,7 +97,17 @@ This framework facilitates a systematic analysis of the intrinsic trade-offs bet
 - [Advancing Biomedical Claim Verification by Using Large Language Models with Better Structured Prompting Strategies](https://aclanthology.org/2025.bionlp-1.14/)
 - [Generating Explanations in Medical Question-Answering by Expectation Maximization Inference over Evidence](https://arxiv.org/abs/2310.01299)
 - [Self-Consistency Improves Chain of Thought Reasoning in Language Models](https://arxiv.org/abs/2203.11171)
-- [$S^2AF$: An action framework to self-check the Understanding Self-Consistency of Large Language Models](https://www.sciencedirect.com/science/article/abs/pii/S0893608025002448)
+- [S2AF: An action framework to self-check the Understanding Self-Consistency of Large Language Models](https://www.sciencedirect.com/science/article/abs/pii/S0893608025002448)
+- [Ranked Voting based Self-Consistency of Large Language Models](https://arxiv.org/abs/2505.10772)
+- [A comparative evaluation of chain-of-thought-based prompt engineering techniques for medical question answering](https://pubmed.ncbi.nlm.nih.gov/40602316/)
+- [Tree-Planner: Efficient Close-loop Task Planning with Large Language Models](https://arxiv.org/abs/2310.08582)
+- [Least-to-Most Prompting Enables Complex Reasoning in Large Language Models](https://arxiv.org/abs/2205.10625)
+- [Prompt engineering in consistency and reliability with the evidence-based guideline for LLMs](https://pubmed.ncbi.nlm.nih.gov/38378899/)
+- [Cost-Effective Framework with Optimized Task Decomposition and Batch Prompting for Medical Dialogue Summary](https://dl.acm.org/doi/abs/10.1145/3627673.3679671)
+- [A brain-inspired agentic architecture to improve planning with LLMs](https://www.nature.com/articles/s41467-025-63804-5)
+- [Self-critiquing models for assisting human evaluators](https://arxiv.org/abs/2206.05802)
+- [FRAME: Feedback-Refined Agent Methodology for Enhancing Medical Research Insights](https://arxiv.org/abs/2505.04649)
+- [Agentic Feedback Loop Modeling Improves Recommendation and User Simulation](https://arxiv.org/abs/2410.20027)
 #### 🧠Memory
 #### 👥Cooperation
 #### ⏫Self-evolution
