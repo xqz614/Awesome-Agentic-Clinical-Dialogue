@@ -109,6 +109,20 @@ This framework facilitates a systematic analysis of the intrinsic trade-offs bet
 - [FRAME: Feedback-Refined Agent Methodology for Enhancing Medical Research Insights](https://arxiv.org/abs/2505.04649)
 - [Agentic Feedback Loop Modeling Improves Recommendation and User Simulation](https://arxiv.org/abs/2410.20027)
 #### 🧠Memory
+- [MOTOR: A Time-To-Event Foundation Model For Structured Medical Records](https://arxiv.org/abs/2301.03150)
+- [Agentic LLM Workflows for Generating Patient-Friendly Medical Reports](https://arxiv.org/abs/2408.01112)
+- [Insights from high and low clinical users of telemedicine: a mixed-methods study of clinician workflows, sentiments, and user experiences](https://pubmed.ncbi.nlm.nih.gov/40674858/)
+- [Evaluating large language model workflows in clinical decision support for triage and referral and diagnosis](https://www.nature.com/articles/s41746-025-01684-1)
+- [SoftTiger: A Clinical Foundation Model for Healthcare Workflows](https://arxiv.org/abs/2403.00868)
+- [STAF-LLM: A scalable and task-adaptive fine-tuning framework for large language models in medical domain](https://www.sciencedirect.com/science/article/pii/S0957417425012047)
+- [Addressing Overprescribing Challenges: Fine-Tuning Large Language Models for Medication Recommendation Tasks](https://arxiv.org/abs/2503.03687v1)
+- [From pre-training to fine-tuning: An in-depth analysis of Large Language Models in the biomedical domain](https://www.sciencedirect.com/science/article/pii/S0933365724002458)
+- [Open-Ended Medical Visual Question Answering Through Prefix Tuning of Language Models](https://arxiv.org/abs/2303.05977)
+- [Diagnosing Transformers: Illuminating Feature Spaces for Clinical Decision-Making](https://arxiv.org/abs/2305.17588)
+- [Embedding dynamic graph attention mechanism into Clinical Knowledge Graph for enhanced diagnostic accuracy](https://www.sciencedirect.com/science/article/pii/S0957417424030823)
+- [HALO: Hallucination Analysis and Learning Optimization to Empower LLMs with Retrieval-Augmented Context for Guided Clinical Decision Making](https://arxiv.org/abs/2409.10011)
+- [Instruction Tuning and CoT Prompting for Contextual Medical QA with LLMs](https://arxiv.org/abs/2506.12182)
+- [LIFE-CRAFT: A Multi-agentic Conversational RAG Framework for Lifestyle Medicine Coaching with Context Traceability and Case-Based Evidence Synthesis](https://dl.acm.org/doi/abs/10.1007/978-3-032-06004-4_9)
 #### 👥Cooperation
 #### ⏫Self-evolution
 ### 🤖**GS**
