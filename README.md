@@ -155,7 +155,18 @@ This framework facilitates a systematic analysis of the intrinsic trade-offs bet
 - [Improving Clinical Question Answering with Multi-Task Learning: A Joint Approach for Answer Extraction and Medical Categorization](https://arxiv.org/abs/2502.13108v1)
 - [Improving Reliability and Explainability of Medical Question Answering through Atomic Fact Checking in Retrieval-Augmented LLMs](https://arxiv.org/abs/2505.24830)
 #### 🧠Memory
-- 
+- [Bias Evaluation and Mitigation in Retrieval-Augmented Medical Question-Answering Systems](https://arxiv.org/abs/2503.15454)
+- [Rationale-Guided Retrieval Augmented Generation for Medical Question Answering](https://aclanthology.org/2025.naacl-long.635/)
+- [Infusing Multi-Hop Medical Knowledge Into Smaller Language Models for Biomedical Question Answering](https://ieeexplore.ieee.org/document/10932873)
+- [Seek Inner: LLM-Enhanced Information Mining for Medical Visual Question Answering](https://dl.acm.org/doi/10.1145/3701716.3717556)
+- [MMedAgent: Learning to Use Medical Tools with Multi-modal Agent](https://arxiv.org/abs/2407.02483)
+- [ReflecTool: Towards Reflection-Aware Tool-Augmented Clinical Agents](https://arxiv.org/abs/2410.17657)
+- [RGAR: Recurrence Generation-augmented Retrieval for Factual-aware Medical Question Answering](https://arxiv.org/abs/2502.13361)
+- [Adaptive Knowledge Graphs Enhance Medical Question Answering: Bridging the Gap Between LLMs and Evolving Medical Knowledge](https://arxiv.org/abs/2502.13010v1)
+- [MedEx: Enhancing Medical Question-Answering with First-Order Logic based Reasoning and Knowledge Injection](https://aclanthology.org/2025.coling-main.649/)
+- [Explainable Knowledge-Based Learning for Online Medical Question Answering](https://link.springer.com/chapter/10.1007/978-981-97-5489-2_26)
+- [Efficient Medical Question Answering with Knowledge-Augmented Question Generation](https://aclanthology.org/2024.clinicalnlp-1.2/)
+- [Leveraging long context in retrieval augmented language models for medical question answering](https://www.nature.com/articles/s41746-025-01651-w)
 #### 🧰Action
 #### 👥Cooperation
 - [Error Detection in Medical Note through Multi Agent Debate](https://aclanthology.org/2025.bionlp-1.12/)
