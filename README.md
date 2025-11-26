@@ -141,7 +141,21 @@ This framework facilitates a systematic analysis of the intrinsic trade-offs bet
 - [Silence is Not Consensus: Disrupting Agreement Bias in Multi-Agent LLMs via Catfish Agent for Clinical Decision Making](https://arxiv.org/abs/2505.21503)
 ### 🤖**GS**
 #### 📊Planning
+- [HyKGE: A Hypothesis Knowledge Graph Enhanced Framework for Accurate and Reliable Medical LLMs Responses](https://arxiv.org/abs/2312.15883)
+- [Check Your Facts and Try Again: Improving Large Language Models with External Knowledge and Automated Feedback](https://arxiv.org/abs/2302.12813)
+- [KGARevion: An AI Agent for Knowledge-Intensive Biomedical QA](https://arxiv.org/abs/2410.04660)
+- [EvidenceMap: Learning Evidence Analysis to Unleash the Power of Small Language Models for Biomedical Question Answering](https://arxiv.org/abs/2501.12746)
+- [Infusing Multi-Hop Medical Knowledge Into Smaller Language Models for Biomedical Question Answering](https://ieeexplore.ieee.org/document/10932873)
+- [Improving Retrieval-Augmented Generation in Medicine with Iterative Follow-up Questions](https://arxiv.org/abs/2408.00727)
+- [MedicalGLM: A Pediatric Medical Question Answering Model with a quality evaluation mechanism](https://pubmed.ncbi.nlm.nih.gov/40058479/)
+- [A cascaded retrieval-while-reasoning multi-document comprehension framework with incremental attention for medical question answering](https://www.sciencedirect.com/science/article/pii/S0957417424025685)
+- [K-COMP: Retrieval-Augmented Medical Domain Question Answering With Knowledge-Injected Compressor](https://arxiv.org/abs/2501.13567)
+- [MEPNet: Medical Entity-balanced Prompting Network for Brain CT Report Generation](https://arxiv.org/abs/2503.17784)
+- [Knowledge-Induced Medicine Prescribing Network for Medication Recommendation](https://www.sciencedirect.com/science/article/pii/S0950705125008093)
+- [Improving Clinical Question Answering with Multi-Task Learning: A Joint Approach for Answer Extraction and Medical Categorization](https://arxiv.org/abs/2502.13108v1)
+- [Improving Reliability and Explainability of Medical Question Answering through Atomic Fact Checking in Retrieval-Augmented LLMs](https://arxiv.org/abs/2505.24830)
 #### 🧠Memory
+- 
 #### 🧰Action
 #### 👥Cooperation
 - [Error Detection in Medical Note through Multi Agent Debate](https://aclanthology.org/2025.bionlp-1.12/)
