@@ -206,6 +206,25 @@ This framework facilitates a systematic analysis of the intrinsic trade-offs bet
 - [TAMA: A Human-AI Collaborative Thematic Analysis Framework Using Multi-Agent LLMs for Clinical Interviews](https://arxiv.org/abs/2503.20666)
 ### 🤖**VWA**
 #### 📊Planning
+- [VITA: 'Carefully Chosen and Weighted Less' Is Better in Medication Recommendation](https://arxiv.org/abs/2312.12100)
+- [EMRs2CSP : Mining Clinical Status Pathway from Electronic Medical Records](https://aclanthology.org/2025.findings-acl.886/)
+- [HealthBranches: Synthesizing Clinically-Grounded Question Answering Datasets via Decision Pathways](https://arxiv.org/abs/2508.07308)
+- [From Questions to Clinical Recommendations: Large Language Models Driving Evidence-Based Clinical Decision Making](https://arxiv.org/abs/2505.10282)
+- [CMQCIC-Bench: A Chinese Benchmark for Evaluating Large Language Models in Medical Quality Control Indicator Calculation](https://arxiv.org/abs/2502.11703)
+- [Augmenting Black-box LLMs with Medical Textbooks for Biomedical Question Answering](https://arxiv.org/abs/2309.02233)
+- [M-QALM: A Benchmark to Assess Clinical Reading Comprehension and Knowledge Recall in Large Language Models via Question Answering](https://aclanthology.org/2024.findings-acl.238/)
+- [Listening to Patients: Detecting and Mitigating Patient Misreport in Medical Dialogue System](https://aclanthology.org/2025.findings-acl.135/)
+- [Visual and Domain Knowledge for Professional-level Graph-of-Thought Medical Reasoning](https://icml.cc/virtual/2025/poster/43761)
+- [MedPlan:A Two-Stage RAG-Based System for Personalized Medical Plan Generation](https://arxiv.org/abs/2503.17900)
+- [PIPA: A Unified Evaluation Protocol for Diagnosing Interactive Planning Agents](https://arxiv.org/abs/2505.01592)
+- [RGAR: Recurrence Generation-augmented Retrieval for Factual-aware Medical Question Answering](https://arxiv.org/abs/2502.13361)
+- [End-to-End Agentic RAG System Training for Traceable Diagnostic Reasoning](https://arxiv.org/abs/2508.15746)
+- [Labeling-free RAG-enhanced LLM for intelligent fault diagnosis via reinforcement learning](https://www.sciencedirect.com/science/article/pii/S1474034625007578)
+- [The Helicobacter pylori AI-clinician harnesses artificial intelligence to personalise H. pylori treatment recommendations](https://www.nature.com/articles/s41467-025-61329-5)
+- [Continual contrastive reinforcement learning: Towards stronger agent for environment-aware fault diagnosis of aero-engines through long-term optimization under highly imbalance scenarios](https://www.sciencedirect.com/science/article/pii/S1474034625001909)
+- [Integration of Multi-Source Medical Data for Medical Diagnosis Question Answering](https://ieeexplore.ieee.org/document/10752912)
+- [Stage-Aware Hierarchical Attentive Relational Network for Diagnosis Prediction](https://ieeexplore.ieee.org/document/10236511)
+- [RULE: Reliable Multimodal RAG for Factuality in Medical Vision Language Models](https://arxiv.org/abs/2407.05131)
 #### 🧠Memory
 #### 🧰Action
 #### 👥Cooperation
