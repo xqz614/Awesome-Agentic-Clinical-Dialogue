@@ -264,7 +264,7 @@ This framework facilitates a systematic analysis of the intrinsic trade-offs bet
 - [A Survey of Self-Evolving Agents: On Path to Artificial Super Intelligence](https://arxiv.org/abs/2507.21046)
 - [Evolving Collective Cognition in Human-Agent Hybrid Societies: How Agents Form Stances and Boundaries](https://arxiv.org/abs/2508.17366)
 ## 🤝 Contributing
-
+Your contributions are always welcome! Please contact [Chuang Zhao](https://github.com/Data-Designer) or [Xiaoquan Zhi](https://github.com/xqz614)
 ## ✍️ Citation
 If you find this code useful for your research, please cite our paper:
 ```bibtex
