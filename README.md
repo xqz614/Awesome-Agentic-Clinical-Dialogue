@@ -266,3 +266,11 @@ This framework facilitates a systematic analysis of the intrinsic trade-offs bet
 ## 🤝 Contributing
 
 ## ✍️ Citation
+If you find this code useful for your research, please cite our paper:
+```bibtex
+@inproceedings{zhao2025reinv,
+  title={Reinventing Clinical Dialogue: Agentic Paradigms for LLM‑Enabled Healthcare Communication},
+  author={Zhao, Chuang and Zhi, Xiaoquan and Zhao, Hongke and Wu, Likang and Zhu, Hengshu},
+  year={2025}
+}
+```
