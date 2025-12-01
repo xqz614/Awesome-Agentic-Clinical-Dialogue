@@ -4,7 +4,7 @@ This repo includes papers about methods related to agentic clinical dialogue. We
 Read our survey paper here: [Reinventing Clinical Dialogue: Agentic Paradigms for LLM‑Enabled Healthcare Communication]()
 ## 📘 Overview
 This framework facilitates a systematic analysis of the intrinsic trade-offs between creativity and reliability by categorizing methods into four archetypes: Latent Space Clinicians, Emergent Planners, Grounded Synthesizers, and Veriffable Workffow Automators. For each paradigm, we deconstruct the technical realization across the entire cognitive pipeline, encompassing strategic planning, memory management, action execution, collaboration, and evolution, to reveal how distinct architectural choices balance the tension between autonomy and safety. Furthermore, we bridge abstract design philosophies with the pragmatic implementation ecosystem. By mapping real-world applications to our taxonomy and systematically reviewing benchmarks and evaluation metrics speciffc to clinical agents, we provide a comprehensive reference for future development.
-<p align="center"><img src="https://github.com/xqz614/Awesome-Agentic-Clinical-Dialogue/blob/main/image/taxonomy.png" height="75px"></p>
+<p align="center"><img src="https://github.com/xqz614/Awesome-Agentic-Clinical-Dialogue/blob/main/image/taxonomy.png" height="500px"></p>
 
 ## 📁 Table of Contents
 - [Key Categories](#-key-categories)
