@@ -424,32 +424,84 @@ This framework facilitates a systematic analysis of the intrinsic trade-offs bet
 
 ### 🤖**GS**
 #### 📊Planning
-- [HyKGE: A Hypothesis Knowledge Graph Enhanced Framework for Accurate and Reliable Medical LLMs Responses](https://arxiv.org/abs/2312.15883)
-- [Check Your Facts and Try Again: Improving Large Language Models with External Knowledge and Automated Feedback](https://arxiv.org/abs/2302.12813)
-- [KGARevion: An AI Agent for Knowledge-Intensive Biomedical QA](https://arxiv.org/abs/2410.04660)
-- [EvidenceMap: Learning Evidence Analysis to Unleash the Power of Small Language Models for Biomedical Question Answering](https://arxiv.org/abs/2501.12746)
-- [Infusing Multi-Hop Medical Knowledge Into Smaller Language Models for Biomedical Question Answering](https://ieeexplore.ieee.org/document/10932873)
-- [Improving Retrieval-Augmented Generation in Medicine with Iterative Follow-up Questions](https://arxiv.org/abs/2408.00727)
-- [MedicalGLM: A Pediatric Medical Question Answering Model with a quality evaluation mechanism](https://pubmed.ncbi.nlm.nih.gov/40058479/)
-- [A cascaded retrieval-while-reasoning multi-document comprehension framework with incremental attention for medical question answering](https://www.sciencedirect.com/science/article/pii/S0957417424025685)
-- [K-COMP: Retrieval-Augmented Medical Domain Question Answering With Knowledge-Injected Compressor](https://arxiv.org/abs/2501.13567)
-- [MEPNet: Medical Entity-balanced Prompting Network for Brain CT Report Generation](https://arxiv.org/abs/2503.17784)
-- [Knowledge-Induced Medicine Prescribing Network for Medication Recommendation](https://www.sciencedirect.com/science/article/pii/S0950705125008093)
-- [Improving Clinical Question Answering with Multi-Task Learning: A Joint Approach for Answer Extraction and Medical Categorization](https://arxiv.org/abs/2502.13108v1)
-- [Improving Reliability and Explainability of Medical Question Answering through Atomic Fact Checking in Retrieval-Augmented LLMs](https://arxiv.org/abs/2505.24830)
+
+- **HyKGE: A Hypothesis Knowledge Graph Enhanced Framework for Accurate and Reliable Medical LLMs Responses** (_ACL Findings_, 2024) [paper](https://arxiv.org/abs/2312.15883), [code](https://github.com/Global-NLP-Lab/HyKGE)
+  > Constructs a hypothesis-driven knowledge graph to verify intermediate reasoning steps, ensuring LLM responses are grounded in medical facts.
+
+- **Check Your Facts and Try Again: Improving Large Language Models with External Knowledge and Automated Feedback** (_ICLR_, 2023) [paper](https://arxiv.org/abs/2302.12813), [code](https://github.com/microsoft/LMOps)
+  > An iterative framework where the model retrieves external knowledge and refines its answer based on automated feedback to reduce hallucinations.
+
+- **KGARevion: An AI Agent for Knowledge-Intensive Biomedical QA** (_arXiv_, 2024) [paper](https://arxiv.org/abs/2410.04660)
+  > An agentic system capable of reviewing and refining its own retrieval and reasoning processes for high-difficulty biomedical questions.
+
+- **EvidenceMap: Learning Evidence Analysis to Unleash the Power of Small Language Models for Biomedical Question Answering** (_arXiv_, 2025) [paper](https://arxiv.org/abs/2501.12746)
+  > Maps complex evidence chains into structured representations, enabling smaller language models to perform expert-level evidence analysis.
+
+- **Infusing Multi-Hop Medical Knowledge Into Smaller Language Models for Biomedical Question Answering** (_IEEE JBHI_, 2025) [paper](https://ieeexplore.ieee.org/document/10932873)
+  > Proposes a method to inject structured multi-hop reasoning capabilities from Knowledge Graphs into smaller models to improve efficiency.
+
+- **Improving Retrieval-Augmented Generation in Medicine with Iterative Follow-up Questions** (_EMNLP Findings_, 2024) [paper](https://arxiv.org/abs/2408.00727)
+  > Enhances RAG by generating iterative follow-up questions to clarify ambiguities and retrieve more precise medical context.
+
+- **MedicalGLM: A Pediatric Medical Question Answering Model with a Quality Evaluation Mechanism** (_BMC Med. Inform. Decis. Mak._, 2025) [paper](https://pubmed.ncbi.nlm.nih.gov/40058479/)
+  > A fine-tuned GLM for pediatrics equipped with a self-evaluation module that assesses the reliability of its own generated advice.
+
+- **A cascaded retrieval-while-reasoning multi-document comprehension framework with incremental attention for medical question answering** (_Expert Syst. Appl._, 2024) [paper](https://www.sciencedirect.com/science/article/pii/S0957417424025685)
+  > Introduces a cascaded framework that interleaves retrieval and reasoning steps with incremental attention to handle multi-document contexts.
+
+- **K-COMP: Retrieval-Augmented Medical Domain Question Answering With Knowledge-Injected Compressor** (_arXiv_, 2025) [paper](https://arxiv.org/abs/2501.13567)
+  > Uses a knowledge-injected compressor to condense retrieved documents, reducing noise and context length while retaining critical medical facts.
+
+- **MEPNet: Medical Entity-balanced Prompting Network for Brain CT Report Generation** (_arXiv_, 2025) [paper](https://arxiv.org/abs/2503.17784)
+  > A prompting network designed to balance the generation of medical entities in CT reports, ensuring comprehensive and accurate reporting.
+
+- **Knowledge-Induced Medicine Prescribing Network for Medication Recommendation** (_Artif. Intell. Med._, 2025) [paper](https://www.sciencedirect.com/science/article/pii/S0950705125008093)
+  > Integrates pharmaceutical knowledge graphs into a deep learning network to provide safe and effective medication combinations.
+
+- **Improving Clinical Question Answering with Multi-Task Learning: A Joint Approach for Answer Extraction and Medical Categorization** (_arXiv_, 2025) [paper](https://arxiv.org/abs/2502.13108v1)
+  > A multi-task learning framework that jointly optimizes for answer extraction and medical category classification to improve overall QA performance.
+
+- **Improving Reliability and Explainability of Medical Question Answering through Atomic Fact Checking in Retrieval-Augmented LLMs** (_arXiv_, 2025) [paper](https://arxiv.org/abs/2505.24830)
+  > Decomposes model responses into atomic facts and verifies them against retrieved evidence to enhance reliability and explainability.
+
 #### 🧠Memory
-- [Bias Evaluation and Mitigation in Retrieval-Augmented Medical Question-Answering Systems](https://arxiv.org/abs/2503.15454)
-- [Rationale-Guided Retrieval Augmented Generation for Medical Question Answering](https://aclanthology.org/2025.naacl-long.635/)
-- [Infusing Multi-Hop Medical Knowledge Into Smaller Language Models for Biomedical Question Answering](https://ieeexplore.ieee.org/document/10932873)
-- [Seek Inner: LLM-Enhanced Information Mining for Medical Visual Question Answering](https://dl.acm.org/doi/10.1145/3701716.3717556)
-- [MMedAgent: Learning to Use Medical Tools with Multi-modal Agent](https://arxiv.org/abs/2407.02483)
-- [ReflecTool: Towards Reflection-Aware Tool-Augmented Clinical Agents](https://arxiv.org/abs/2410.17657)
-- [RGAR: Recurrence Generation-augmented Retrieval for Factual-aware Medical Question Answering](https://arxiv.org/abs/2502.13361)
-- [Adaptive Knowledge Graphs Enhance Medical Question Answering: Bridging the Gap Between LLMs and Evolving Medical Knowledge](https://arxiv.org/abs/2502.13010v1)
-- [MedEx: Enhancing Medical Question-Answering with First-Order Logic based Reasoning and Knowledge Injection](https://aclanthology.org/2025.coling-main.649/)
-- [Explainable Knowledge-Based Learning for Online Medical Question Answering](https://link.springer.com/chapter/10.1007/978-981-97-5489-2_26)
-- [Efficient Medical Question Answering with Knowledge-Augmented Question Generation](https://aclanthology.org/2024.clinicalnlp-1.2/)
-- [Leveraging long context in retrieval augmented language models for medical question answering](https://www.nature.com/articles/s41746-025-01651-w)
+
+- **Bias Evaluation and Mitigation in Retrieval-Augmented Medical Question-Answering Systems** (_arXiv_, 2025) [paper](https://arxiv.org/abs/2503.15454)
+  > Systematically evaluates sources of bias in medical RAG systems and proposes mitigation strategies to ensure equitable healthcare advice.
+
+- **Rationale-Guided Retrieval Augmented Generation for Medical Question Answering** (_NAACL_, 2025) [paper](https://aclanthology.org/2025.naacl-long.635/)
+  > Generates rationales first to guide the retrieval process, ensuring that retrieved documents support the logical reasoning path.
+
+- **Infusing Multi-Hop Medical Knowledge Into Smaller Language Models for Biomedical Question Answering** (_IEEE JBHI_, 2025) [paper](https://ieeexplore.ieee.org/document/10932873)
+  > (See Planning section) Enhances memory capacity of small models by embedding multi-hop relations from medical KGs.
+
+- **Seek Inner: LLM-Enhanced Information Mining for Medical Visual Question Answering** (_ACM MM_, 2024) [paper](https://dl.acm.org/doi/10.1145/3701716.3717556)
+  > Mines implicit medical knowledge from Large Language Models to supplement visual features in Medical VQA tasks.
+
+- **MMedAgent: Learning to Use Medical Tools with Multi-modal Agent** (_NeurIPS_, 2024) [paper](https://arxiv.org/abs/2407.02483), [code](https://github.com/Fair-Play/MMedAgent)
+  > A multimodal agent framework that learns to retrieve and utilize external medical tools (like calculators and search) to solve complex cases.
+
+- **ReflecTool: Towards Reflection-Aware Tool-Augmented Clinical Agents** (_ACL Findings_, 2025) [paper](https://arxiv.org/abs/2410.17657)
+  > Enables clinical agents to reflect on the sufficiency of their current information and autonomously decide when to use tools.
+
+- **RGAR: Recurrence Generation-augmented Retrieval for Factual-aware Medical Question Answering** (_arXiv_, 2025) [paper](https://arxiv.org/abs/2502.13361)
+  > Introduces a recurrence mechanism where the model's own generation is used to refine subsequent retrieval queries for better factuality.
+
+- **Adaptive Knowledge Graphs Enhance Medical Question Answering: Bridging the Gap Between LLMs and Evolving Medical Knowledge** (_arXiv_, 2025) [paper](https://arxiv.org/abs/2502.13010v1)
+  > Proposes a framework where the medical knowledge graph is adaptively updated based on new findings to keep the QA system current.
+
+- **MedEx: Enhancing Medical Question-Answering with First-Order Logic based Reasoning and Knowledge Injection** (_COLING_, 2025) [paper](https://aclanthology.org/2025.coling-main.649/)
+  > Combines neural generation with symbolic First-Order Logic to inject strict medical constraints and knowledge into the memory of the QA system.
+
+- **Explainable Knowledge-Based Learning for Online Medical Question Answering** (_PRICAI_, 2024) [paper](https://link.springer.com/chapter/10.1007/978-981-97-5489-2_26)
+  > An online learning approach that updates the model's knowledge base continuously while providing explainable reasoning paths.
+
+- **Efficient Medical Question Answering with Knowledge-Augmented Question Generation** (_ClinicalNLP_, 2024) [paper](https://aclanthology.org/2024.clinicalnlp-1.2/)
+  > Augments the training data (memory) of QA models by generating diverse synthetic medical questions grounded in knowledge bases.
+
+- **Leveraging long context in retrieval augmented language models for medical question answering** (_npj Digit. Med._, 2025) [paper](https://www.nature.com/articles/s41746-025-01651-w)
+  > Investigates the trade-offs and synergies between using long-context windows and RAG for accessing vast medical knowledge.
+
 #### 🧰Action
 - [KoSEL: Knowledge subgraph enhanced large language model for medical question answering](https://www.sciencedirect.com/science/article/pii/S0950705124014710)
 - [Are my answers medically accurate? Exploiting medical knowledge graphs for medical question answering](https://link.springer.com/article/10.1007/s10489-024-05282-8)
