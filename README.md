@@ -265,6 +265,70 @@ This framework facilitates a systematic analysis of the intrinsic trade-offs bet
 - [HealthBranches: Synthesizing Clinically-Grounded Question Answering Datasets via Decision Pathways](https://arxiv.org/abs/2508.07308)
 - [A Survey of Self-Evolving Agents: On Path to Artificial Super Intelligence](https://arxiv.org/abs/2507.21046)
 - [Evolving Collective Cognition in Human-Agent Hybrid Societies: How Agents Form Stances and Boundaries](https://arxiv.org/abs/2508.17366)
+### Dataset
+
+| Dataset Name | Time (Pub) | Downstream Task | Brief Description | Source (Paper/Link) |
+| :--- | :--- | :--- | :--- | :--- |
+| **I. QA Dialogue** | | | | |
+| **MedQA** | 2020 | Medical Examination (QA) | Large-scale multiple-choice questions collected from professional medical board exams (USMLE, Mainland China, Taiwan). | [Jin et al., 2020](https://arxiv.org/abs/2009.13081) |
+| **MedMCQA** | 2022 | Medical Examination (QA) | Large-scale, multiple-choice QA dataset derived from Indian medical entrance examinations (AIIMS/NEET). | [Pal et al., 2022](https://proceedings.mlr.press/v174/pal22a.html) |
+| **cMedQA2** | 2019 | QA / Retrieval | Chinese medical QA dataset with queries and answers from online health counseling platforms. | [Zhang et al., 2019](https://github.com/zhangsheng93/cMedQA2) |
+| **CMExam** | 2023 | Medical Examination (QA) | 60K+ multiple-choice questions from the Chinese National Medical Licensing Examination with detailed annotations. | [Liu et al., 2023](https://arxiv.org/abs/2306.03030) |
+| **Medbullets** | 2024 | Medical Examination (QA) | High-quality USMLE Step 2 & 3 style questions with expert-written explanations for reasoning evaluation. | [Chen et al., 2024](https://arxiv.org/abs/2402.18060) |
+| **HeadQA** | 2019 | Medical Examination (QA) | Multiple-choice questions from Spanish healthcare exams (MIR, EIR, etc.) for testing complex reasoning. | [Vilares et al., 2019](https://aclanthology.org/P19-1092/) |
+| **Huatuo-26M** | 2023 | Medical Examination / QA | Massive Chinese medical QA dataset with 26 million QA pairs, used for pre-training and retrieval. | [Li et al., 2023](https://arxiv.org/abs/2305.01526) |
+| **CasiMedicos-Arg**| 2024 | Medical Examination (QA) | Multilingual dataset (ES, EN, FR, IT) annotated with explanatory argumentative structures for clinical cases. | [Sviridova et al., 2024](https://aclanthology.org/2024.emnlp-main.1023/) |
+| **PubMedQA** | 2019 | Literature-based QA | Biomedical QA task to answer "yes/no/maybe" from PubMed abstracts. | [Jin et al., 2019](https://arxiv.org/abs/1909.06146) |
+| **CliCR** | 2018 | Literature-based QA | Dataset of clinical case reports designed for machine reading comprehension. | [Suster et al., 2018](https://arxiv.org/abs/1803.09102) |
+| **MEDIQA-2019** | 2019 | Literature-based QA | Shared task data focusing on NLI, RQE (Recognizing Question Entailment), and QA in the medical domain. | [Ben Abacha et al., 2019](https://www.aclweb.org/anthology/W19-5001/) |
+| **BioASQ** | 2013-2023| Literature-based QA | Long-running challenge series for large-scale biomedical semantic indexing and question answering. | [Tsatsaronis et al.](http://bioasq.org/) |
+| **Medical Meadow** | 2023 | Literature-based / Tuning | A collection of various medical tasks (Flashcards, Wikidoc) reformatted for instruction tuning. | [Kbressem et al., 2023](https://github.com/kbressem/medAlpaca) |
+| **MASH-QA** | 2020 | Consumer Health QA | Multiple-span extraction QA dataset for consumer health questions (e.g., from WebMD). | [Zhu et al., 2020](https://arxiv.org/abs/2004.03008) |
+| **HealthQA** | 2023 | Consumer Health QA | Dataset focusing on reliability and helpfulness of health answers. | [Zhu et al., 2023](https://arxiv.org/abs/2302.06871) |
+| **AfriMed-QA** | 2025 | Domain-specific QA | Pan-African medical QA benchmark (15k Qs) covering 32 specialties and local context from 16 countries. | [Nimo et al., 2025](https://arxiv.org/abs/2502.x) |
+| **MedCalc-Bench** | 2024 | Domain-specific QA | Benchmark for evaluating LLMs on medical calculations (formulas, scores) with patient notes. | [Wang et al., 2024](https://arxiv.org/abs/2406.12683) |
+| **MedHallu** | 2025 | QA / Hallucination | 10k Q-A pairs derived from PubMedQA annotated to detect and categorize medical hallucinations. | [Gao et al., 2025](https://arxiv.org/abs/2502.14691) |
+| **MedicationQA** | 2019 | Consumer Health QA | Dataset of consumer questions about medications (drug interactions, dosage) with expert answers. | [Ben Abacha et al., 2019](https://arxiv.org/abs/1908.10023) |
+| **RJUA-MedDQA** | 2024 | QA / Multimodal | Multimodal benchmark for medical document understanding (images/reports) and clinical reasoning. | [Jin et al., 2024](https://arxiv.org/abs/2402.14840) |
+| **II. Task-oriented Dialogue** | | | | |
+| **MedDialog** | 2020 | Symptom Diagnosis | Massive dataset (English/Chinese) of doctor-patient conversations scraped from online platforms. | [Zeng et al., 2020](https://arxiv.org/abs/2004.03329) |
+| **DialoAMC** | 2023 | Symptom Diagnosis | Dataset for Automated Medical Consultation focusing on symptom elicitation and diagnosis. | [Chen et al., 2023](https://doi.org/10.1145/3539618.3591901) |
+| **MedDG** | 2022 | Symptom Diagnosis | High-quality entity-annotated medical dialogue dataset for diagnosis and treatment recommendation. | [Liu et al., 2022](https://arxiv.org/abs/2010.07497) |
+| **MZ** (Muzhi) | 2018 | Symptom Diagnosis | Chinese medical dialogue dataset from the "Muzhi" platform for self-diagnosis agents. | [Wei et al., 2018](https://www.aclweb.org/anthology/P18-1216/) |
+| **CMDD** | 2019 | Symptom Diagnosis | Chinese Medical Diagnostic Dialogue dataset (Pediatrics) with symptom-disease mappings. | [Lin et al., 2019](https://arxiv.org/abs/1902.04588) |
+| **DX** (DXY) | 2019 | Symptom Diagnosis | Diagnostic dataset from DXY.cn, containing dialogue sessions with explicit symptom transitions. | [Xu et al., 2019](https://arxiv.org/abs/1908.02402) |
+| **CovidDialog** | 2020 | Symptom Diagnosis (COVID) | Dialogues specifically regarding COVID-19 consultations, scraped during the pandemic. | [Zhou et al., 2020](https://arxiv.org/abs/2007.01977) |
+| **Ext-CovidDialog**| 2023 | Symptom Diagnosis (COVID) | Extended version of CovidDialog with more data covering evolving variants and scenarios. | [Varshney et al., 2023](https://aclanthology.org/2023.bionlp-1.11/) |
+| **IMCS-21** | 2021 | Symptom Diagnosis | Interactive Medical Consultation System dataset; focuses on multi-turn diagnostic dialogue. | [Chen et al., 2021](https://arxiv.org/abs/2105.02672) |
+| **BC5CDR** | 2015 | Entity Recognition | BioCreative V task dataset for Chemical-Disease Relation extraction (NER/RE). | [Li et al., 2016](https://academic.oup.com/database/article/2016/1/baw068/2630414) |
+| **NCBI-Disease** | 2014 | Entity Recognition | Corpus of PubMed abstracts annotated with disease mentions for NER. | [Doğan et al., 2014](https://www.ncbi.nlm.nih.gov/CBBresearch/Dogan/) |
+| **PHEE** | 2022 | Entity Extraction | Pharmacovigilance Event Extraction dataset for identifying adverse drug events from text. | [Sun et al., 2022](https://aclanthology.org/2022.emnlp-main.373/) |
+| **MedAlign** | 2023 | Instruction Following | Clinician-generated dataset for instruction following (summaries, questions) based on EHR data. | [Fleming et al., 2023](https://arxiv.org/abs/2308.14089) |
+| **MedInstruct** | 2023 | Instruction Following | Dataset of 52k medical instructions constructed from existing datasets (e.g., MedQA) for tuning. | [Zhang et al., 2023](https://arxiv.org/abs/2304.09842) |
+| **BianqueCorpus** | 2023 | Instruction Following | Large-scale multi-turn Chinese health conversation dataset with balanced questioning/suggestions. | [Chen et al., 2023](https://arxiv.org/abs/2306.03030) |
+| **MedSynth** | 2025 | Generation / Summarization | Synthetic medical dialogue-note pairs designed to advance dialogue-to-note and note-to-dialogue tasks. | [Rezaei et al., 2025](https://arxiv.org/abs/2508.01401) |
+| **MeQSum** | 2019 | Summarization / Instruction | Dataset for summarizing consumer health questions into canonical medical questions. | [Abacha et al., 2019](https://www.aclweb.org/anthology/P19-1215/) |
+| **III. Recommendation Dialogue**| | | | |
+| **DialMed** | 2022 | Recommendation (Drug) | Dialogue dataset designed for medication recommendation based on patient history/dialogue. | [He et al., 2022](https://arxiv.org/abs/2202.08779) |
+| **ReMeDi** | 2021 | Recommendation | "Resources for Medical Dialogue"; focuses on movie/medical recommendation scenarios. | [Yan et al., 2021](https://aclanthology.org/2021.emnlp-main.288/) |
+| **MIMIC-III** | 2016 | Database (Source) | Large database of de-identified health-related data (EHRs) used to construct recommendation tasks. | [Johnson et al., 2016](https://www.nature.com/articles/sdata201635) |
+| **DrugBank** | - | Knowledge Base (Source) | Comprehensive database containing information on drugs and drug targets, used for grounding recommendations. | [Wishart et al.](https://go.drugbank.com/) |
+| **ProKnow-data** | 2020 | Recommendation | Data used for proactive knowledge-grounded dialogue, often adapted for medical contexts. | [Liu et al., 2020](https://arxiv.org/abs/2010.13328) |
+| **IV. Supportive Dialogue** | | | | |
+| **EmpatheticDialogues**| 2019 | General Empathetic | Large dataset of 25k conversations grounded in emotional situations (general domain). | [Rashkin et al., 2019](https://arxiv.org/abs/1811.00207) |
+| **MELD** | 2019 | General Empathetic | Multimodal EmotionLines Dataset; textual/audio/visual emotion recognition. | [Poria et al., 2019](https://arxiv.org/abs/1810.02508) |
+| **PsyQA** | 2021 | Mental Health Support | Chinese dataset of psychological health support (Q&A) with strategy annotations. | [Sun et al., 2021](https://arxiv.org/abs/2106.01702) |
+| **ESConv** | 2021 | Mental Health Support | Emotional Support Conversation dataset designed to train agents in empathy and support strategies. | [Liu et al., 2021](https://arxiv.org/abs/2106.01144) |
+| **SoulChat-Corpus** | 2023 | Mental Health Support | Large-scale Chinese dataset for single-turn and multi-turn empathetic psychological counseling. | [Chen et al., 2023](https://arxiv.org/abs/2304.09842) |
+| **MTS-Dialogue** | 2023 | Clinical Support/Summ. | 1.7k doctor-patient conversations paired with corresponding clinical note summaries. | [Abacha et al., 2023](https://aclanthology.org/2023.eacl-main.168/) |
+| **SMILECHAT** | 2023 | Mental Health Support | Dataset for mental health support focusing on cognitive distortion detection and reframing. | [Qiu et al., 2023](https://arxiv.org/abs/2304.09842) |
+| **V. Hybrid Function** | | | | |
+| **MidMed** | 2023 | Hybrid (Diag/Rec/Chat) | Mixed-type dialogue corpus covering diagnosis, recommendation, QA, and chitchat in one session. | [Shi et al., 2023](https://arxiv.org/abs/2306.02923) |
+| **MedEval** | 2023 | Evaluation Benchmark | Multi-level, multi-task benchmark spanning 35 body regions and 8 exam modalities for LLM eval. | [He et al., 2023](https://arxiv.org/abs/2310.14088) |
+| **MedTrinity-25M** | 2024 | Multimodal / Hybrid | Massive multimodal dataset (25M images) with multigranular annotations (Image-ROI-Text). | [Xie et al., 2024](https://arxiv.org/abs/2408.02900) |
+| **MENTAT** | 2025 | Mental Health / Hybrid | Clinician-annotated benchmark for complex psychiatric decision-making (diagnosis, triage, etc.). | [Stanford, 2025](https://hai.stanford.edu/research/mentat) |
+| **MedAlpaca** | 2023 | Instruction Tuning | Collection of datasets (see Medical Meadow) used to train the MedAlpaca model series. | [Han et al., 2023](https://arxiv.org/abs/2304.08247) |
+| **NoteChat** | 2023 | Generation / Hybrid | Synthetic patient-physician conversations conditioned on clinical notes (Note-to-Dialogue). | [Wang et al., 2023](https://arxiv.org/abs/2310.15959) |
 ## 🤝 Contributing
 Your contributions are always welcome! Please contact [Xiaoquan Zhi](https://github.com/xqz614) or [Chuang Zhao](https://github.com/Data-Designer)
 ## ✍️ Citation
