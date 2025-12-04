@@ -503,27 +503,70 @@ This framework facilitates a systematic analysis of the intrinsic trade-offs bet
   > Investigates the trade-offs and synergies between using long-context windows and RAG for accessing vast medical knowledge.
 
 #### 🧰Action
-- [KoSEL: Knowledge subgraph enhanced large language model for medical question answering](https://www.sciencedirect.com/science/article/pii/S0950705124014710)
-- [Are my answers medically accurate? Exploiting medical knowledge graphs for medical question answering](https://link.springer.com/article/10.1007/s10489-024-05282-8)
-- [Infusing Multi-Hop Medical Knowledge Into Smaller Language Models for Biomedical Question Answering](https://ieeexplore.ieee.org/document/10932873)
-- [Improving Clinical Question Answering with Multi-Task Learning: A Joint Approach for Answer Extraction and Medical Categorization](https://arxiv.org/abs/2502.13108v1)
-- [Beyond EHRs: External Clinical knowledge and cohort Features for medication recommendation](https://www.sciencedirect.com/science/article/pii/S0950705125008093)
-- [MEPNet: Medical Entity-balanced Prompting Network for Brain CT Report Generation](https://arxiv.org/abs/2503.17784)
-- [Improving Reliability and Explainability of Medical Question Answering through Atomic Fact Checking in Retrieval-Augmented LLMs](https://arxiv.org/abs/2505.24830)
-- [K-COMP: Retrieval-Augmented Medical Domain Question Answering With Knowledge-Injected Compressor](https://arxiv.org/abs/2501.13567)
-- [MedCoT-RAG: Causal Chain-of-Thought RAG for Medical Question Answering](https://arxiv.org/abs/2508.15849)
-- [Towards Efficient Methods in Medical Question Answering using Knowledge Graph Embeddings](https://ieeexplore.ieee.org/document/10821824)
-- [MediTriR: A Triple-Driven Approach to Retrieval-Augmented Generation for Medical Question Answering Tasks](https://ieeexplore.ieee.org/document/11036297)
-- [Medical Knowledge Graph QA for Drug-Drug Interaction Prediction based on Multi-hop Machine Reading Comprehension](https://arxiv.org/abs/2212.09400v3)
-- [MediSearch: Advanced Medical Web Search Engine](https://ieeexplore.ieee.org/document/10099048)
-- [Evaluating search engines and large language models for answering health questions](https://www.nature.com/articles/s41746-025-01546-w)
-- [Leveraging long context in retrieval augmented language models for medical question answering](https://www.nature.com/articles/s41746-025-01651-w)
-- [Using Internet search engines to obtain medical information: a comparative study](https://pubmed.ncbi.nlm.nih.gov/22672889/)
-- [Large language model agents can use tools to perform clinical calculations](https://pubmed.ncbi.nlm.nih.gov/40097720/)
-- [MeNTi: Bridging Medical Calculator and LLM Agent with Nested Tool Calling](https://arxiv.org/abs/2410.13610)
-- [MMedAgent: Learning to Use Medical Tools with Multi-modal Agent](https://arxiv.org/abs/2407.02483)
-- [KMTLabeler: An Interactive Knowledge-Assisted Labeling Tool for Medical Text Classification](https://ieeexplore.ieee.org/document/10540286)
-- [ADEPT: An advanced data exploration and processing tool for clinical data insights](https://pubmed.ncbi.nlm.nih.gov/40403533/)
+
+- **KoSEL: Knowledge subgraph enhanced large language model for medical question answering** (_Artif. Intell. Med._, 2024) [paper](https://www.sciencedirect.com/science/article/pii/S0950705124014710)
+  > Retrieves relevant subgraphs from a medical knowledge graph to provide structured context, enhancing the LLM's reasoning for medical QA.
+
+- **Are my answers medically accurate? Exploiting medical knowledge graphs for medical question answering** (_Appl. Intell._, 2024) [paper](https://link.springer.com/article/10.1007/s10489-024-05282-8)
+  > Proposes a framework that cross-references LLM-generated answers with facts extracted from medical knowledge graphs to ensure accuracy.
+
+- **Infusing Multi-Hop Medical Knowledge Into Smaller Language Models for Biomedical Question Answering** (_IEEE JBHI_, 2025) [paper](https://ieeexplore.ieee.org/document/10932873)
+  > Enables smaller language models to perform complex biomedical QA by injecting multi-hop reasoning paths derived from knowledge graphs.
+
+- **Improving Clinical Question Answering with Multi-Task Learning: A Joint Approach for Answer Extraction and Medical Categorization** (_arXiv_, 2025) [paper](https://arxiv.org/abs/2502.13108v1)
+  > A multi-task learning approach that simultaneously optimizes answer extraction and question categorization to improve clinical QA performance.
+
+- **Beyond EHRs: External Clinical knowledge and cohort Features for medication recommendation** (_Artif. Intell. Med._, 2025) [paper](https://www.sciencedirect.com/science/article/pii/S0950705125008093)
+  > (Same as "Knowledge-Induced Medicine..." in Planning) Integrates external clinical knowledge graphs with patient cohort features for precise medication recommendation.
+
+- **MEPNet: Medical Entity-balanced Prompting Network for Brain CT Report Generation** (_arXiv_, 2025) [paper](https://arxiv.org/abs/2503.17784)
+  > A network that balances the generation of various medical entities in CT reports through specialized prompting actions.
+
+- **Improving Reliability and Explainability of Medical Question Answering through Atomic Fact Checking in Retrieval-Augmented LLMs** (_arXiv_, 2025) [paper](https://arxiv.org/abs/2505.24830)
+  > Enhances RAG systems by decomposing answers into atomic facts and verifying each against retrieved evidence for better reliability.
+
+- **K-COMP: Retrieval-Augmented Medical Domain Question Answering With Knowledge-Injected Compressor** (_arXiv_, 2025) [paper](https://arxiv.org/abs/2501.13567)
+  > Employs a compressor module injected with medical knowledge to condense retrieved documents, optimizing the context for the LLM.
+
+- **MedCoT-RAG: Causal Chain-of-Thought RAG for Medical Question Answering** (_arXiv_, 2025) [paper](https://arxiv.org/abs/2508.15849)
+  > Combines retrieval augmentation with causal chain-of-thought reasoning to explain the causal relationships behind medical answers.
+
+- **Towards Efficient Methods in Medical Question Answering using Knowledge Graph Embeddings** (_IEEE BigData_, 2024) [paper](https://ieeexplore.ieee.org/document/10821824)
+  > Utilizes knowledge graph embeddings to efficiently retrieve relevant medical concepts, improving QA speed and accuracy.
+
+- **MediTriR: A Triple-Driven Approach to Retrieval-Augmented Generation for Medical Question Answering Tasks** (_IEEE Access_, 2025) [paper](https://ieeexplore.ieee.org/document/11036297)
+  > A RAG approach driven by knowledge triples (Subject-Predicate-Object) to ensure the retrieval of structured and precise medical information.
+
+- **Medical Knowledge Graph QA for Drug-Drug Interaction Prediction based on Multi-hop Machine Reading Comprehension** (_arXiv_, 2022) [paper](https://arxiv.org/abs/2212.09400)
+  > Predicts drug-drug interactions by treating the task as a multi-hop machine reading comprehension problem over a knowledge graph.
+
+- **MediSearch: Advanced Medical Web Search Engine** (_IEEE ICHI_, 2023) [paper](https://ieeexplore.ieee.org/document/10099048)
+  > A specialized search engine framework that aggregates and filters medical information from the web to provide authoritative health answers.
+
+- **Evaluating search engines and large language models for answering health questions** (_npj Digit. Med._, 2025) [paper](https://www.nature.com/articles/s41746-025-01546-w)
+  > A comparative study evaluating the accuracy, safety, and completeness of traditional search engines versus LLMs in answering health queries.
+
+- **Leveraging long context in retrieval augmented language models for medical question answering** (_npj Digit. Med._, 2025) [paper](https://www.nature.com/articles/s41746-025-01651-w)
+  > Examines the effectiveness of using long-context LLMs to process extensive retrieved medical documents compared to standard chunking methods.
+
+- **Using Internet search engines to obtain medical information: a comparative study** (_J. Med. Internet Res._, 2012) [paper](https://pubmed.ncbi.nlm.nih.gov/22672889/)
+  > A foundational study (cited for context) comparing the efficacy of general-purpose search engines in retrieving accurate medical information.
+
+- **Large language model agents can use tools to perform clinical calculations** (_npj Digit. Med._, 2025) [paper](https://www.nature.com/articles/s41746-025-01475-8)
+  > Demonstrates that LLM agents equipped with external calculator tools significantly outperform base models in performing complex clinical scores (e.g., MELD).
+
+- **MeNTi: Bridging Medical Calculator and LLM Agent with Nested Tool Calling** (_arXiv_, 2024) [paper](https://arxiv.org/abs/2410.13610)
+  > Enables LLM agents to execute nested tool calls, allowing them to handle complex medical calculations that require intermediate steps.
+
+- **MMedAgent: Learning to Use Medical Tools with Multi-modal Agent** (_NeurIPS_, 2024) [paper](https://arxiv.org/abs/2407.02483), [code](https://github.com/Fair-Play/MMedAgent)
+  > A framework where multimodal agents learn to autonomously select and utilize various medical tools (search, calculators) to solve clinical problems.
+
+- **KMTLabeler: An Interactive Knowledge-Assisted Labeling Tool for Medical Text Classification** (_IEEE ICASSP_, 2024) [paper](https://ieeexplore.ieee.org/document/10540286)
+  > An interactive tool that uses medical knowledge to assist human annotators in labeling clinical text, improving efficiency and consistency.
+
+- **ADEPT: An advanced data exploration and processing tool for clinical data insights** (_Database_, 2025) [paper](https://pubmed.ncbi.nlm.nih.gov/40403533/)
+  > A comprehensive software tool designed for the exploration, cleaning, and preprocessing of large-scale clinical datasets for research.
+
 #### 👥Cooperation
 - [Error Detection in Medical Note through Multi Agent Debate](https://aclanthology.org/2025.bionlp-1.12/)
 - [Multi-modal Medical Diagnosis via Large-small Model Collaboration](https://ieeexplore.ieee.org/document/11095208)
