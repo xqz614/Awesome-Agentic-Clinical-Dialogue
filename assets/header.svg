@@ -1,0 +1,89 @@
+<svg width="100%" height="200" viewBox="0 0 800 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- 渐变定义 -->
+    <linearGradient id="grad-text" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#42d392;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a78bfa;stop-opacity:1" />
+    </linearGradient>
+
+    <!-- 辉光滤镜，让文字在黑色背景下更亮，在白色背景下也清晰 -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- 动画定义 -->
+    <style>
+      .text-title { 
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; 
+        font-weight: 800; 
+        letter-spacing: -0.5px; 
+      }
+      .ecg-line { 
+        stroke-dasharray: 1000; 
+        stroke-dashoffset: 1000; 
+        animation: dash 5s linear infinite; 
+        opacity: 0.4;
+      }
+      @keyframes dash {
+        to { stroke-dashoffset: 0; }
+      }
+      @keyframes pulse {
+        0%, 100% { transform: scale(1); opacity: 0.8; }
+        50% { transform: scale(1.5); opacity: 1; }
+      }
+      .node-pulse {
+        animation: pulse 2s infinite ease-in-out;
+      }
+    </style>
+  </defs>
+
+  <!-- 1. 定义长方形轨道路径 (隐藏不显示，只用于给节点导航) -->
+  <!-- 路径逻辑：从左上 -> 右上 -> 右下 -> 左下 -> 闭合 -->
+  <!-- 这里的坐标是围绕着中心文字计算的宽框 -->
+  <path id="orbit-track" d="M-30,60 H830 V140 H-30 Z" fill="none" />
+
+  <!-- 2. ECG 心跳线 (在文字后方穿梭) -->
+  <!-- 稍微调整了位置，使其横穿文字中间但颜色较淡 -->
+  <path class="ecg-line" d="M0 100 h250 l10 -30 l10 60 l10 -30 h50 l10 -40 l15 80 l15 -40 h50 l10 -20 l10 20 h350" stroke="#38bdf8" stroke-width="2.5" fill="none" />
+
+  <!-- 3. 主标题 -->
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-size="48" fill="url(#grad-text)" class="text-title" filter="url(#glow)">
+    Awesome Agentic Clinical Dialogue
+  </text>
+  
+  <!-- 4. 环绕飞行的节点 (Agentic Agents) -->
+  
+  <!-- 节点 A: 绿色 (领先) -->
+  <g>
+    <!-- 运动轨迹 -->
+    <animateMotion dur="6s" repeatCount="indefinite" rotate="auto" calcMode="linear">
+      <mpath href="#orbit-track"/>
+    </animateMotion>
+    
+    <!-- 节点图形 -->
+    <circle r="4" fill="#42d392" class="node-pulse">
+        <!-- 拖尾效果 -->
+        <animate attributeName="opacity" values="1;0.5;1" dur="1s" repeatCount="indefinite"/>
+    </circle>
+    <!-- 连接线/尾巴 -->
+    <line x1="-10" y1="0" x2="0" y2="0" stroke="#42d392" stroke-width="2" opacity="0.5" />
+  </g>
+
+  <!-- 节点 B: 紫色 (追逐，延迟一点) -->
+  <g>
+    <!-- 运动轨迹 (通过 keyPoints 或 simply 设置 begin 时间来错开，这里用 keyPoints 实现镜像位置有点复杂，直接复制逻辑加 begin 延迟最稳) -->
+    <animateMotion dur="6s" begin="-3s" repeatCount="indefinite" rotate="auto" calcMode="linear">
+      <mpath href="#orbit-track"/>
+    </animateMotion>
+    
+    <!-- 节点图形 -->
+    <circle r="4" fill="#a78bfa" class="node-pulse" />
+    <line x1="-10" y1="0" x2="0" y2="0" stroke="#a78bfa" stroke-width="2" opacity="0.5" />
+  </g>
+
+</svg>
