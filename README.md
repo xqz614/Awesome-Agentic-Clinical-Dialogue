@@ -131,8 +131,8 @@ This framework facilitates a systematic analysis of the intrinsic trade-offs bet
 ## 📖 Awesome Methods, Model and Resource List
 ### 🤖**LSC**
 #### 📊Planning
-- [BioGPT: generative pre-trained transformer for biomedical text generation and mining](https://arxiv.org/abs/2210.10341)
-  > This is an article
+- BioGPT: generative pre-trained transformer for biomedical text generation and mining (_Briefings Bioinf._, 2023) [paper](https://arxiv.org/abs/2210.10341), [code](https://github.com/microsoft/BioGPT)
+  > one sentence describing core contribution
 - [BioBART: Pretraining and Evaluation of {A} Biomedical Generative Language Model](https://arxiv.org/abs/2204.03905)
 - [ClinicalBERT: Modeling Clinical Notes and Predicting Hospital Readmission](https://arxiv.org/abs/1904.05342)
 - [BioMegatron: Larger Biomedical Domain Language Model](https://arxiv.org/abs/2010.06060)
@@ -151,6 +151,66 @@ This framework facilitates a systematic analysis of the intrinsic trade-offs bet
 - [Ontology accelerates few-shot learning capability of large language model: A study in extraction of drug efficacy in a rare pediatric epilepsy](https://pubmed.ncbi.nlm.nih.gov/40311258/)
 - [A generalist medical language model for disease diagnosis assistance](https://www.nature.com/articles/s41591-024-03416-6)
 - [Taiyi: A Bilingual Fine-Tuned Large Language Model for Diverse Biomedical Tasks](https://arxiv.org/abs/2311.11608)
+
+
+- **BioGPT: generative pre-trained transformer for biomedical text generation and mining** (_Briefings Bioinf._, 2023) [paper](https://arxiv.org/abs/2210.10341), [code](https://github.com/microsoft/BioGPT)
+  > A domain-specific generative Transformer pre-trained on large-scale biomedical literature to achieve state-of-the-art performance in text generation and mining tasks.
+
+- **BioBART: Pretraining and Evaluation of A Biomedical Generative Language Model** (_BioNLP_, 2022) [paper](https://arxiv.org/abs/2204.03905), [code](https://github.com/GanjinZero/BioBART)
+  > Adapts the BART architecture to the biomedical domain with enhanced pre-training tasks, significantly improving performance on summarization and dialogue generation.
+
+- **ClinicalBERT: Modeling Clinical Notes and Predicting Hospital Readmission** (_CHIL_, 2020) [paper](https://arxiv.org/abs/1904.05342), [code](https://github.com/kexinhuang12345/clinicalBERT)
+  > Develops contextual embeddings specifically for clinical notes to effectively predict hospital readmission and model long-term clinical dependencies.
+
+- **BioMegatron: Larger Biomedical Domain Language Model** (_EMNLP_, 2020) [paper](https://arxiv.org/abs/2010.06060), [code](https://github.com/NVIDIA/NeMo)
+  > Leverages the Megatron-LM infrastructure to train a large-scale biomedical language model, demonstrating improvements in named entity recognition and QA tasks.
+
+- **Toward expert-level medical question answering with large language models** (_Nature_, 2023) [paper](https://www.nature.com/articles/s41586-023-06291-2), [code](https://github.com/google-research-datasets/MultiMedQA)
+  > Introduces Med-PaLM, utilizing instruction tuning and ensemble refinement to become the first AI to exceed the passing score on the USMLE.
+
+- **CoD: Towards an Interpretable Medical Agent using Chain of Diagnosis** (_ICML AI4Science_, 2024) [paper](https://arxiv.org/abs/2407.13301), [code](https://github.com/WeChat-AI/CoD)
+  > Proposes a Chain of Diagnosis (CoD) framework that breaks down the diagnostic process into interpretable steps to enhance transparency and accuracy.
+
+- **HuaTuo: Tuning LLaMA Model with Chinese Medical Knowledge** (_EMNLP Findings_, 2023) [paper](https://arxiv.org/abs/2304.06975), [code](https://github.com/SCIR-HI/Huatuo-Llama-Med-Chinese)
+  > Incorporates a structured medical knowledge graph into the LLaMA model via instruction tuning to significantly enhance Chinese medical QA capabilities.
+
+- **Learning Causal Alignment for Reliable Disease Diagnosis** (_ICCV_, 2023) [paper](https://arxiv.org/abs/2310.01766), [code](https://github.com/Ying-Jie-Tan/Causal-Alignment)
+  > Introduces a causal alignment framework to mitigate confounding biases in medical data, ensuring more reliable and generalizable disease diagnosis.
+
+- **Reasoning with large language models for medical question answering** (_npj Digit. Med._, 2024) [paper](https://pubmed.ncbi.nlm.nih.gov/38960731/)
+  > systematically evaluates different reasoning strategies (like Chain-of-Thought) in LLMs to identify the most effective methods for complex medical QA.
+
+- **Empowering biomedical discovery with AI agents** (_Nature_, 2024) [paper](https://pubmed.ncbi.nlm.nih.gov/39486399/)
+  > Discusses the paradigm shift towards autonomous AI agents capable of planning and executing experiments to accelerate biomedical research and discovery.
+
+- **A fast nonnegative autoencoder-based approach to latent feature analysis on high-dimensional and incomplete data** (_IEEE TNNLS_, 2024) [paper](https://ieeexplore.ieee.org/abstract/document/10265117)
+  > Proposes a highly efficient nonnegative autoencoder designed to extract latent features from high-dimensional, sparse, and incomplete medical datasets.
+
+- **Multiview latent space learning with progressively fine-tuned deep features for unsupervised domain adaptation** (_Inf. Sci._, 2024) [paper](https://www.sciencedirect.com/science/article/pii/S0020025524001361)
+  > Develops a method to align multiview latent spaces using progressively fine-tuned features, improving unsupervised domain adaptation in medical imaging analysis.
+
+- **Autosurv: interpretable deep learning framework for cancer survival analysis incorporating clinical and multi-omics data** (_npj Precis. Oncol._, 2023) [paper](https://www.nature.com/articles/s41698-023-00494-6), [code](https://github.com/TencentAILabHealthcare/AutoSurv)
+  > A comprehensive and interpretable deep learning framework that integrates clinical and multi-omics data to improve cancer survival prediction accuracy.
+
+- **Qilin-Med: Multi-stage Knowledge Injection Advanced Medical Large Language Model** (_arXiv_, 2023) [paper](https://arxiv.org/abs/2310.09089), [code](https://github.com/Opencs/Qilin-Med)
+  > Presents a multi-stage training strategy to inject massive medical knowledge into LLMs, enhancing their reasoning and dialogue performance in Chinese medical contexts.
+
+- **Counterfactual reasoning using causal Bayesian networks as a healthcare governance tool** (_Sci. Rep._, 2024) [paper](https://pubmed.ncbi.nlm.nih.gov/39531901/)
+  > Applies causal Bayesian networks to perform counterfactual analysis, providing a quantitative tool for evaluating healthcare policies and governance decisions.
+
+- **Large Language Models for Medical Forecasting - Foresight 2** (_arXiv_, 2024) [paper](https://arxiv.org/abs/2412.10848)
+  > Introduces a generative foundation model trained on longitudinal patient records to forecast future medical events and health trajectories.
+
+- **Ontology accelerates few-shot learning capability of large language model: A study in extraction of drug efficacy in a rare pediatric epilepsy** (_Comput. Methods Programs Biomed._, 2025) [paper](https://pubmed.ncbi.nlm.nih.gov/40311258/)
+  > Demonstrates that integrating domain ontologies significantly boosts the few-shot learning performance of LLMs for information extraction in rare diseases.
+
+- **A generalist medical language model for disease diagnosis assistance** (_Nat. Med._, 2024) [paper](https://www.nature.com/articles/s41591-024-03416-6)
+  > Presents AMIE, a generalist medical AI system optimized for diagnostic dialogue that matches or exceeds primary care physicians in simulated diagnostic tasks.
+
+- **Taiyi: A Bilingual Fine-Tuned Large Language Model for Diverse Biomedical Tasks** (_JAMIA_, 2024) [paper](https://arxiv.org/abs/2311.11608), [code](https://github.com/DUTIR-BioNLP/Taiyi-LLM)
+  > A bilingual (English/Chinese) LLM specifically fine-tuned to handle a diverse range of biomedical tasks, including NER, RE, and QA.
+
+
 #### 🧠Memory
 - [Focus on What Matters: Enhancing Medical Vision-Language Models with Automatic Attention Alignment Tuning](https://arxiv.org/abs/2505.18503)
 - [Rethinking the Role of Demonstrations: What Makes In-Context Learning Work?](https://arxiv.org/abs/2202.12837)
