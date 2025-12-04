@@ -241,19 +241,45 @@ This framework facilitates a systematic analysis of the intrinsic trade-offs bet
 
 
 #### 👥Cooperation
-- [MEDCO: Medical Education Copilots Based on A Multi-Agent Framework](https://arxiv.org/abs/2408.12496)
-- [ColaCare: Enhancing Electronic Health Record Modeling through Large Language Model-Driven Multi-Agent Collaboration](https://dl.acm.org/doi/abs/10.1145/3696410.3714877)
-- [ReConcile: Round-Table Conference Improves Reasoning via Consensus among Diverse LLMs](https://arxiv.org/abs/2309.13007)
-- [MAM: Modular Multi-Agent Framework for Multi-Modal Medical Diagnosis via Role-Specialized Collaboration](https://arxiv.org/abs/2506.19835)
-- [MDAgents: An Adaptive Collaboration of LLMs for Medical Decision-Making](https://arxiv.org/abs/2404.15155)
-- [Self-Evolving Multi-Agent Simulations for Realistic Clinical Interactions](https://arxiv.org/abs/2503.22678)
-- [MedAgents: Large Language Models as Collaborators for Zero-shot Medical Reasoning](https://arxiv.org/abs/2311.10537)
+
+- **MEDCO: Medical Education Copilots Based on A Multi-Agent Framework** (_ECCV Workshops_, 2024) [paper](https://arxiv.org/abs/2408.12496)
+  > Introduces a multi-agent educational copilot system comprising student, patient, and expert agents to simulate realistic clinical training scenarios.
+
+- **ColaCare: Enhancing Electronic Health Record Modeling through Large Language Model-Driven Multi-Agent Collaboration** (_WWW_, 2025) [paper](https://arxiv.org/abs/2410.02551), [code](https://github.com/PKU-AICare/ColaCare)
+  > Enhances EHR predictive modeling by using a multi-agent "medical team" (DoctorAgents and MetaAgent) to collaborate on patient data analysis.
+
+- **ReConcile: Round-Table Conference Improves Reasoning via Consensus among Diverse LLMs** (_ACL Findings_, 2024) [paper](https://arxiv.org/abs/2309.13007), [code](https://github.com/ReConcile-LLM/ReConcile)
+  > A multi-agent framework where diverse LLMs engage in round-table discussions to reach consensus, significantly improving reasoning accuracy.
+
+- **MAM: Modular Multi-Agent Framework for Multi-Modal Medical Diagnosis via Role-Specialized Collaboration** (_ACL Findings_, 2025) [paper](https://arxiv.org/abs/2506.19835), [code](https://github.com/yczhou001/MAM)
+  > Decomposes diagnostic tasks into specialized agent roles (General Practitioner, Specialist, Radiologist) to handle multi-modal medical data effectively.
+
+- **MDAgents: An Adaptive Collaboration of LLMs for Medical Decision-Making** (_NeurIPS_, 2024) [paper](https://arxiv.org/abs/2404.15155), [code](https://github.com/mit-medialab/MDAgents)
+  > Dynamically adapts the collaboration structure (solo vs. group) of LLM agents based on the medical complexity of the query.
+
+- **Self-Evolving Multi-Agent Simulations for Realistic Clinical Interactions (MedAgentSim)** (_MICCAI_, 2025) [paper](https://arxiv.org/abs/2503.22678), [code](https://github.com/MAXNORM8650/MedAgentSim)
+  > Presents MedAgentSim, a framework where doctor and patient agents interact and evolve their diagnostic strategies through experience without human labeling.
+
+- **MedAgents: Large Language Models as Collaborators for Zero-shot Medical Reasoning** (_arXiv_, 2023) [paper](https://arxiv.org/abs/2311.10537), [code](https://github.com/GersteinLab/MedAgents)
+  > Leveraging a multi-agent debate mechanism to enhance zero-shot clinical reasoning capabilities by simulating medical consultations.
+
 #### ⏫Self-evolution
-- [AlphaEvolve: A coding agent for scientific and algorithmic discovery](https://arxiv.org/abs/2506.13131)
-- [Revolutionizing healthcare: the role of artificial intelligence in clinical practice](https://pubmed.ncbi.nlm.nih.gov/37740191/)
-- [Agent Hospital: A Simulacrum of Hospital with Evolvable Medical Agents](https://arxiv.org/abs/2405.02957)
-- [STLLaVA-Med: Self-Training Large Language and Vision Assistant for Medical Question-Answering](https://arxiv.org/abs/2406.19973)
-- [Darwin Godel Machine: Open-Ended Evolution of Self-Improving Agents](https://arxiv.org/abs/2505.22954)
+
+- **AlphaEvolve: A coding agent for scientific and algorithmic discovery** (_arXiv_, 2025) [paper](https://arxiv.org/abs/2506.13131)
+  > An evolutionary coding agent from DeepMind capable of autonomously discovering novel algorithms and optimizing code for scientific problems.
+
+- **Revolutionizing healthcare: the role of artificial intelligence in clinical practice** (_BMC Med. Educ._, 2023) [paper](https://pubmed.ncbi.nlm.nih.gov/37740191/)
+  > A comprehensive review discussing the transformative impact and ethical implications of integrating AI agents into clinical workflows.
+
+- **Agent Hospital: A Simulacrum of Hospital with Evolvable Medical Agents** (_arXiv_, 2024) [paper](https://arxiv.org/abs/2405.02957), [code](https://github.com/OpenBMB/AgentHospital)
+  > Simulates a full hospital environment where doctor agents continuously evolve and improve their diagnostic skills by treating patient agents.
+
+- **STLLaVA-Med: Self-Training Large Language and Vision Assistant for Medical Question-Answering** (_EMNLP_, 2024) [paper](https://arxiv.org/abs/2406.19973), [code](https://github.com/heliossun/STLLaVA-Med)
+  > Uses a self-training pipeline with Direct Preference Optimization (DPO) to improve medical VLM performance using auto-generated data.
+
+- **Darwin Godel Machine: Open-Ended Evolution of Self-Improving Agents** (_arXiv_, 2025) [paper](https://arxiv.org/abs/2505.22954)
+  > Proposes a framework for open-ended agent evolution where the system can rewrite its own code to continuously improve its learning and reasoning mechanisms.
+
 ### 🤖**EP**
 #### 📊Planning
 - [Towards Medical Complex Reasoning with LLMs through Medical Verifiable Problems](https://aclanthology.org/2025.findings-acl.751/)
