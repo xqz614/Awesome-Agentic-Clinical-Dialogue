@@ -132,6 +132,7 @@ This framework facilitates a systematic analysis of the intrinsic trade-offs bet
 ### 🤖**LSC**
 #### 📊Planning
 - [BioGPT: generative pre-trained transformer for biomedical text generation and mining](https://arxiv.org/abs/2210.10341)
+  ``This is an article``
 - [BioBART: Pretraining and Evaluation of {A} Biomedical Generative Language Model](https://arxiv.org/abs/2204.03905)
 - [ClinicalBERT: Modeling Clinical Notes and Predicting Hospital Readmission](https://arxiv.org/abs/1904.05342)
 - [BioMegatron: Larger Biomedical Domain Language Model](https://arxiv.org/abs/2010.06060)
