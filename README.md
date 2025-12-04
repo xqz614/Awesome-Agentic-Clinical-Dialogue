@@ -568,20 +568,48 @@ This framework facilitates a systematic analysis of the intrinsic trade-offs bet
   > A comprehensive software tool designed for the exploration, cleaning, and preprocessing of large-scale clinical datasets for research.
 
 #### 👥Cooperation
-- [Error Detection in Medical Note through Multi Agent Debate](https://aclanthology.org/2025.bionlp-1.12/)
-- [Multi-modal Medical Diagnosis via Large-small Model Collaboration](https://ieeexplore.ieee.org/document/11095208)
-- [MACD: Multi-Agent Clinical Diagnosis with Self-Learned Knowledge for LLM](https://arxiv.org/abs/2509.20067)
-- [MedSentry: Understanding and Mitigating Safety Risks in Medical LLM Multi-Agent Systems](https://arxiv.org/abs/2505.20824)
-- [MedConMA: A Confidence-Driven Multi-agent Framework for Medical Q&A](https://link.springer.com/chapter/10.1007/978-981-96-8180-8_33)
-- [MDTeamGPT: A Self-Evolving LLM-based Multi-Agent Framework for Multi-Disciplinary Team Medical Consultation](https://arxiv.org/abs/2503.13856)
+
+- **Error Detection in Medical Note through Multi Agent Debate** (_BioNLP_, 2025) [paper](https://aclanthology.org/2025.bionlp-1.12/)
+  > Utilizes a multi-agent debate framework where agents critically analyze medical notes to identify and reach consensus on documentation errors.
+
+- **Multi-modal Medical Diagnosis via Large-small Model Collaboration** (_IEEE_, 2025) [paper](https://ieeexplore.ieee.org/document/11095208)
+  > Proposes a collaborative framework where large multi-modal models guide smaller, efficient models to improve diagnostic accuracy on resource-constrained devices.
+
+- **MACD: Multi-Agent Clinical Diagnosis with Self-Learned Knowledge for LLM** (_arXiv_, 2025) [paper](https://arxiv.org/abs/2509.20067)
+  > A multi-agent system where agents self-learn from historical diagnostic cases to build a shared knowledge base, enhancing collaborative decision-making.
+
+- **MedSentry: Understanding and Mitigating Safety Risks in Medical LLM Multi-Agent Systems** (_arXiv_, 2025) [paper](https://arxiv.org/abs/2505.20824)
+  > A comprehensive study and framework for identifying, categorizing, and mitigating safety risks (e.g., toxicity, bias) arising from agent interactions.
+
+- **MedConMA: A Confidence-Driven Multi-agent Framework for Medical Q&A** (_Springer_, 2025) [paper](https://link.springer.com/chapter/10.1007/978-981-96-8180-8_33)
+  > Introduces a confidence-driven mechanism where agents weigh their contributions to the final answer based on their self-assessed certainty levels.
+
+- **MDTeamGPT: A Self-Evolving LLM-based Multi-Agent Framework for Multi-Disciplinary Team Medical Consultation** (_arXiv_, 2025) [paper](https://arxiv.org/abs/2503.13856)
+  > Simulates a Multi-Disciplinary Team (MDT) consultation where agents evolve their collaborative strategies over time to solve complex cancer cases.
+
 #### ⏫Self-evolution
-- [Agentic Medical Knowledge Graphs Enhance Medical Question Answering: Bridging the Gap Between LLMs and Evolving Medical Knowledge](https://arxiv.org/abs/2502.13010)
-- [Large language model agents can use tools to perform clinical calculations](https://www.nature.com/articles/s41746-025-01475-8)
-- [MACD: Multi-Agent Clinical Diagnosis with Self-Learned Knowledge for LLM](https://arxiv.org/abs/2509.20067)
-- [MedAgent-Pro: Towards Evidence-based Multi-modal Medical Diagnosis via Reasoning Agentic Workflow](https://arxiv.org/abs/2503.18968)
-- [Improving Self-training with Prototypical Learning for Source-Free Domain Adaptation on Clinical Text](https://aclanthology.org/2024.bionlp-1.1/)
-- [ReflecTool: Towards Reflection-Aware Tool-Augmented Clinical Agents](https://arxiv.org/abs/2410.17657)
-- [TAMA: A Human-AI Collaborative Thematic Analysis Framework Using Multi-Agent LLMs for Clinical Interviews](https://arxiv.org/abs/2503.20666)
+
+- **Adaptive Knowledge Graphs Enhance Medical Question Answering: Bridging the Gap Between LLMs and Evolving Medical Knowledge** (_arXiv_, 2025) [paper](https://arxiv.org/abs/2502.13010)
+  > (Previously listed as *Agentic Medical Knowledge Graphs...*) A framework that autonomously updates its knowledge graph using agentic search to reflect the latest medical research.
+
+- **Large language model agents can use tools to perform clinical calculations** (_npj Digit. Med._, 2025) [paper](https://www.nature.com/articles/s41746-025-01475-8)
+  > Demonstrates that enabling LLM agents to autonomously identify the need for and use clinical calculators significantly reduces computational errors.
+
+- **MACD: Multi-Agent Clinical Diagnosis with Self-Learned Knowledge for LLM** (_arXiv_, 2025) [paper](https://arxiv.org/abs/2509.20067)
+  > (Also listed in Cooperation) Highlights the self-evolution aspect where the system improves its diagnostic logic through self-learned knowledge accumulation.
+
+- **MedAgent-Pro: Towards Evidence-based Multi-modal Medical Diagnosis via Reasoning Agentic Workflow** (_arXiv_, 2025) [paper](https://arxiv.org/abs/2503.18968)
+  > An advanced agentic workflow that iteratively gathers multimodal evidence and refines its reasoning path to provide evidence-based diagnoses.
+
+- **Improving Self-training with Prototypical Learning for Source-Free Domain Adaptation on Clinical Text** (_BioNLP_, 2024) [paper](https://aclanthology.org/2024.bionlp-1.1/)
+  > Combines self-training with prototypical learning to adapt clinical NLP models to new hospitals or domains without accessing source data.
+
+- **ReflecTool: Towards Reflection-Aware Tool-Augmented Clinical Agents** (_ACL Findings_, 2025) [paper](https://arxiv.org/abs/2410.17657)
+  > Enables agents to "reflect" on their outputs and tool usage history, allowing them to self-correct and optimize their tool selection strategies.
+
+- **TAMA: A Human-AI Collaborative Thematic Analysis Framework Using Multi-Agent LLMs for Clinical Interviews** (_arXiv_, 2025) [paper](https://arxiv.org/abs/2503.20666)
+  > A multi-agent framework that assists researchers in performing thematic analysis of clinical interviews, learning from human feedback to improve coding quality.
+
 ### 🤖**VWA**
 #### 📊Planning
 - [VITA: 'Carefully Chosen and Weighted Less' Is Better in Medication Recommendation](https://arxiv.org/abs/2312.12100)
