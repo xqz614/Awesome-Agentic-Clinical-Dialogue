@@ -703,20 +703,49 @@ This framework facilitates a systematic analysis of the intrinsic trade-offs bet
   > (Also listed in Planning) Trains an agentic system where the retrieval (memory) and reasoning components are optimized end-to-end for traceability.
 
 #### 🧰Action
-- [CardioTRAP: Design of a Retrieval Augmented System (RAG) for Clinical Data in Cardiology](https://ieeexplore.ieee.org/document/11081642)
-- [CLI-RAG: A Retrieval-Augmented Framework for Clinically Structured and Context Aware Text Generation with LLMs](https://arxiv.org/abs/2507.06715)
-- [HI-DR: Exploiting Health Status-Aware Attention and an EHR Graph+ for Effective Medication Recommendation](https://ojs.aaai.org/index.php/AAAI/article/view/33301)
-- [Medical Graph RAG: Evidence-based Medical Large Language Model via Graph Retrieval-Augmented Generation](https://aclanthology.org/2025.acl-long.1381/)
-- [MedRAG: Enhancing Retrieval-augmented Generation with Knowledge Graph-Elicited Reasoning for Healthcare Copilot](https://arxiv.org/abs/2502.04413)
-- [KPL: Training-Free Medical Knowledge Mining of Vision-Language Models](https://arxiv.org/abs/2501.11231)
-- [End-to-End Agentic RAG System Training for Traceable Diagnostic Reasoning](https://arxiv.org/abs/2508.15746)
-- [SearchRAG: Can Search Engines Be Helpful for LLM-based Medical Question Answering?](https://arxiv.org/abs/2502.13233)
-- [Enhancing medical information retrieval: Re-engineering the tala-med search engine for improved performance and flexibility](https://pubmed.ncbi.nlm.nih.gov/40991950/)
-- [Designing a Distributed LLM-Based Search Engine as a Foundation for Agent Discovery](https://ieeexplore.ieee.org/document/10967406)
-- [How the Algorithmic Transparency of Search Engines Influences Health Anxiety: The Mediating Effects of Trust in Online Health Information Search](https://dl.acm.org/doi/10.1145/3706598.3713199)
-- [Transforming Medical Data Access: The Role and Challenges of Recent Language Models in SQL Query Automation](https://www.semanticscholar.org/paper/Transforming-Medical-Data-Access%3A-The-Role-and-of-Tankovi%C4%87-%C5%A0ajina/bb37f6df4218feb32cf86bb95fc5a5cc95465a18)
-- [Improving Interactive Diagnostic Ability of a Large Language Model Agent Through Clinical Experience Learning](https://arxiv.org/abs/2503.16463)
-- [Designing VR Simulation System for Clinical Communication Training with LLMs-Based Embodied Conversational Agents](https://arxiv.org/abs/2503.01767)
+
+- **CardioTRAP: Design of a Retrieval Augmented System (RAG) for Clinical Data in Cardiology** (_IEEE Access_, 2025) [paper](https://ieeexplore.ieee.org/document/11081642)
+  > Designs a specialized RAG system tailored for cardiology that retrieves and processes patient-specific clinical data to support cardiologist decision-making.
+
+- **CLI-RAG: A Retrieval-Augmented Framework for Clinically Structured and Context Aware Text Generation with LLMs** (_arXiv_, 2025) [paper](https://arxiv.org/abs/2507.06715)
+  > Introduces a RAG framework capable of handling the complex structure and context of clinical texts, enabling more accurate medical report generation.
+
+- **HI-DR: Exploiting Health Status-Aware Attention and an EHR Graph+ for Effective Medication Recommendation** (_AAAI_, 2025) [paper](https://ojs.aaai.org/index.php/AAAI/article/view/33301)
+  > (Also listed in Memory) Uses an action-oriented recommendation engine that leverages health status-aware attention and EHR graphs to prescribe medications.
+
+- **Medical Graph RAG: Evidence-based Medical Large Language Model via Graph Retrieval-Augmented Generation** (_ACL_, 2025) [paper](https://aclanthology.org/2025.acl-long.1381/)
+  > (Also listed in Memory) Enhances the retrieval action by utilizing a medical knowledge graph to ground LLM generations in structured, evidence-based facts.
+
+- **MedRAG: Enhancing Retrieval-augmented Generation with Knowledge Graph-Elicited Reasoning for Healthcare Copilot** (_arXiv_, 2025) [paper](https://arxiv.org/abs/2502.04413)
+  > Optimizes the retrieval action through knowledge graph-elicited reasoning, improving the relevance and accuracy of information provided by healthcare copilots.
+
+- **KPL: Training-Free Medical Knowledge Mining of Vision-Language Models** (_arXiv_, 2025) [paper](https://arxiv.org/abs/2501.11231)
+  > Proposes a training-free method to actively mine and extract medical knowledge hidden within pre-trained Vision-Language Models.
+
+- **End-to-End Agentic RAG System Training for Traceable Diagnostic Reasoning** (_arXiv_, 2025) [paper](https://arxiv.org/abs/2508.15746)
+  > Trains an agentic system to perform end-to-end diagnostic actions where every reasoning step is traceable to a specific retrieved document.
+
+- **SearchRAG: Can Search Engines Be Helpful for LLM-based Medical Question Answering?** (_arXiv_, 2025) [paper](https://arxiv.org/abs/2502.13233)
+  > Investigates the utility of integrating commercial search engine actions into the RAG pipeline to supplement internal knowledge bases for medical QA.
+
+- **Enhancing medical information retrieval: Re-engineering the tala-med search engine for improved performance and flexibility** (_BMC Med. Inform. Decis. Mak._, 2025) [paper](https://pubmed.ncbi.nlm.nih.gov/40991950/)
+  > Details the re-engineering of the 'tala-med' search engine, optimizing its architecture for more flexible and high-performance medical information retrieval.
+
+- **Designing a Distributed LLM-Based Search Engine as a Foundation for Agent Discovery** (_IEEE_, 2025) [paper](https://ieeexplore.ieee.org/document/10967406)
+  > Proposes a distributed architecture for LLM-based search that serves as a foundational layer for autonomous agents to discover and access medical knowledge.
+
+- **How the Algorithmic Transparency of Search Engines Influences Health Anxiety: The Mediating Effects of Trust in Online Health Information Search** (_CHI_, 2025) [paper](https://dl.acm.org/doi/10.1145/3706598.3713199)
+  > A user study analyzing how the transparency of search engine algorithms affects user trust and health anxiety during online health information seeking.
+
+- **Transforming Medical Data Access: The Role and Challenges of Recent Language Models in SQL Query Automation** (_MIPRO_, 2024) [paper](https://www.semanticscholar.org/paper/Transforming-Medical-Data-Access%3A-The-Role-and-of-Tankovi%C4%87-%C5%A0ajina/bb37f6df4218feb32cf86bb95fc5a5cc95465a18)
+  > Evaluates the capability of LLMs to automate SQL query generation (Text-to-SQL), facilitating easier access to medical databases for non-technical users.
+
+- **Improving Interactive Diagnostic Ability of a Large Language Model Agent Through Clinical Experience Learning** (_arXiv_, 2025) [paper](https://arxiv.org/abs/2503.16463)
+  > (Also listed in Self-evolution) Enhances the agent's diagnostic actions by allowing it to learn from simulated clinical experiences and feedback.
+
+- **Designing VR Simulation System for Clinical Communication Training with LLMs-Based Embodied Conversational Agents** (_arXiv_, 2025) [paper](https://arxiv.org/abs/2503.01767)
+  > Integrates LLM-based embodied agents into a Virtual Reality simulation to train medical students in clinical communication actions.
+
 #### 👥Cooperation
 - [Enhancing Clinical Trial Patient Matching through Knowledge Augmentation and Reasoning with Multi-Agent](https://arxiv.org/abs/2411.14637)
 - [TeamMedAgents: Enhancing Medical Decision-Making of LLMs Through Structured Teamwork](https://arxiv.org/abs/2508.08115)
