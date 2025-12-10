@@ -25,7 +25,8 @@
     Read our survey paper here: <a href="https://arxiv.org/abs/2512.01453">Reinventing Clinical Dialogue: Agentic Paradigms for LLM‑Enabled Healthcare Communication</a> 
     <br />
     <a href="#-awesome-methods-model-and-resource-list">Papers</a> •
-    <a href="#%EF%B8%8Fstart-with-awesome-dataset">Datasets</a>
+    <a href="#%EF%B8%8Fstart-with-awesome-dataset">Datasets</a> •
+    <a href="#-leading-group">Leading Group</a>
   </p>
 </div>
 
