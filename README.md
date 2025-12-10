@@ -75,10 +75,10 @@ This framework facilitates a systematic analysis of the intrinsic trade-offs bet
 - 🤖**Grounded Synthesizers (GS)**. These agents operate under the principle that LLMs should function as powerful natural language interfaces to reliable external information rather than as knowledge creators. Their primary role is to retrieve, integrate, and accurately summarize information from verifiable sources like medical databases or imaging data. Exemplars include the foundational frameworks medical retrieval and indexing techniques such as Med-RAG and MA-COIR.
 - 🤖**Verifiable Workflow Automators (VWA)**. In this paradigm, agent autonomy is strictly constrained within pre-defined, verifiable clinical workflows or decision trees. The LLM acts as a natural language front-end to a structured process, executing tasks rather than making open-ended decisions, which ensures maximum safety and predictability. This approach is exemplified by commercial triage bots, the structured conversational framework of systems like Google's AMIE, and principles from classic task-oriented dialogue systems sush as MeDi-TODER.
 
-## ✳️**Start with Awesome Dataset** [Back to Content](#-table-of-contents)
-
-### **I. QA Dialogue** [Back to Content](#-table-of-contents)
-
+## ✳️**Start with Awesome Dataset**
+[Back to Content](#-table-of-contents)
+### **I. QA Dialogue**
+[Back to Content](#-table-of-contents)
 | Dataset Name | Time (Pub) | Downstream Task | Brief Description | Source |
 | :--- | :--- | :--- | :--- | :--- |
 | **MedQA** | 2020 | Medical Examination (QA) | Large-scale multiple-choice questions collected from professional medical board exams (USMLE, Mainland China, Taiwan). | [paper](https://arxiv.org/abs/2009.13081), [source](https://github.com/jind11/MedQA/) |
