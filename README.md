@@ -29,6 +29,7 @@
   </p>
 </div>
 
+<p align="center"><img src="https://github.com/xqz614/Awesome-Agentic-Clinical-Dialogue/blob/main/image/nano.png" height="500px"></p>
 
 
 ## 📘 Overview
