@@ -20,7 +20,7 @@
 
   <p align="center">
     <br />
-    Awesome-Agentic-Clinical-Dialogue (this repo) includes papers about methods related to agentic clinical dialogue. We believe that the agentic paradigm is still a largely unexplored area, and we hope this repository will provide you with some valuable insights!
+    Welcome to Awesome-Agentic-Clinical-Dialogue. This repo includes papers about methods related to agentic clinical dialogue. We believe that the agentic paradigm is still a largely unexplored area, and we hope this repository will provide you with some valuable insights!
     <br />
     Read our survey paper here: <a href="https://arxiv.org/abs/2512.01453">Reinventing Clinical Dialogue: Agentic Paradigms for LLM‑Enabled Healthcare Communication</a> 
     <br />
