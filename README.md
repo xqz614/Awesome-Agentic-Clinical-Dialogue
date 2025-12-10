@@ -25,7 +25,7 @@
     Read our survey paper here: <a href="https://arxiv.org/abs/2512.01453">Reinventing Clinical Dialogue: Agentic Paradigms for LLM‑Enabled Healthcare Communication</a> 
     <br />
     <a href="#-awesome-methods-model-and-resource-list">Papers</a> •
-    <a href="#%EF%B8%8Fawesome-dataset">Datasets</a>
+    <a href="#%EF%B8%8Fstart-with-awesome-dataset">Datasets</a>
   </p>
 </div>
 
@@ -37,7 +37,7 @@ This framework facilitates a systematic analysis of the intrinsic trade-offs bet
 
 ## 📁 Table of Contents
 - [Key Categories](#-key-categories)
-- [Start with Awesome Dataset](#%EF%B8%8Fawesome-dataset)
+- [Start with Awesome Dataset](#%EF%B8%8Fstart-with-awesome-dataset)
   - [QA Dialogue](#i-qa-dialogue)
   - [Task-oriented Dialogue](#ii-task-oriented-dialogue)
   - [Recommendation Dialogue](#iii-recommendation-dialogue)
