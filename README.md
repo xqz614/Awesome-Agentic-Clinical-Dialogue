@@ -162,26 +162,53 @@ This framework facilitates a systematic analysis of the intrinsic trade-offs bet
 | Institution | Leading Researcher/Group | Source |
 | :--- | :--- | :--- | 
 |Google|Google Health|[Homepage](https://health.google/pubs/)|
+|NIH|Zhiyong Lu|[Homepage](https://www.ncbi.nlm.nih.gov/research/bionlp/)|
 |Open AI|Health AI Team|[Homepage](https://openai.com/science/)|
 |Ant Group|AI for Science Team|[Homepage](https://www.antgroup.com/en)|
-|Alibaba|Tongyi Lab|[Homepage](https://github.com/Alibaba-NLP)|
+|Alibaba|Tongyi Lab, Damo|[Homepage](https://github.com/Alibaba-NLP), [Homepage](https://github.com/alibaba-damo-academy)|
 |Shanghai AI Lab|AI for Science Team|[Homepage](https://ai4.science/)|
 |Baichuan AI|AI Lab|[Homepage](https://github.com/baichuan-inc)|
-|Tecent|Jarvislab|[Homepage](https://jarvislab.tencent.com/)|
+|Tecent|Jarvislab, Xiaobin Hu|[Homepage](https://jarvislab.tencent.com/), [Homepage](https://huuxiaobin.github.io/)|
 |Huawei|NoAH|[Homepage](http://dev3.noahlab.com.hk/research.html)|
+|ByteDance|Seed,AI for Science Team|[Homepage](https://seed.bytedance.com/zh/direction/ai_for_science)|
 |Microsoft Research|Hoifung Poon|[Homepage](https://scholar.google.com/citations?user=yqqmVbkAAAAJ&hl=en)|
-|TJU|ADM Group|[Homepage](https://www.adm-cube.online/)|
-|UIUC|Jimeng Sun|[Homepage](https://www.sunlab.org/)|
-|Pennsylvania|Tianyu Han, Fenglong Ma|[Homepage](https://www.tianyuhan.ai/), [Homepage](https://fenglong-ma.github.io/)|
+|Harvard|Xiang Li, Faisal Mahmood Lab, Pranav Rajpurkar, Tianxi Cai|[Homepage](https://xiangli-shaun.github.io/), [Homepage](https://faisal.ai/), [Homepage](https://pranavrajpurkar.com/), [Homepage](https://dbmi.hms.harvard.edu/people/tianxi-cai)|
+|Maryland|Hanan Samet|[Homepage](https://www.cs.umd.edu/~hjs/)|
+|MIT|Paul Liang, Peter Szolovits|[Homepage](https://pliang279.github.io/), [Homepage](https://people.csail.mit.edu/psz/web/publications.html)|
+|Oxford|Tingting Zhu, David A. Clifton|[Homepage](https://eng.ox.ac.uk/people/tingting-zhu), [Homepage](https://eng.ox.ac.uk/chi)|
+|Cambridge|Vanderschaar-lab, Andreas Vlachos|[Homepage](https://www.vanderschaar-lab.com/prof-mihaela-van-der-schaar/), [Homepage](https://andreasvlachos.github.io/)|
+|NTU|Chunyan Miao|[Homepage](https://dr.ntu.edu.sg/entities/person/Miao-Chun-Yan)|
+|Tsinghua University|Yang Liu, Hong-Yu Zhou, Weizhi Ma|[Homepage](https://nlp.csai.tsinghua.edu.cn/~ly/), [Homepage](https://zhouhy.org/), [Homepage](https://mawz12.github.io/)|
+|UNC|Tianlong Chen, Huaxiu Yao|[Homepage](https://genai4health.github.io/), [Homepage](https://www.huaxiuyao.io/)|
+|Yale|Clinical NLP Lab|[Homepage](https://medicine.yale.edu/lab/clinical-nlp/team/)|
+|UBC|Xiaoxiao Li|[Homepage](https://tea.ece.ubc.ca/)|
+|UIUC|Jimeng Sun,Jiawei Han|[Homepage](https://www.sunlab.org/), [Homepage](http://hanj.cs.illinois.edu/)|
+|ZJU|DCDmllm|[Homepage](https://github.com/DCDmllm)|
+|Notre Dame|SCLab|[Homepage](https://scl-nd.github.io/)|
+|Pennsylvania|Tianyu Han, Fenglong Ma, Lyle Ungar|[Homepage](https://www.tianyuhan.ai/), [Homepage](https://fenglong-ma.github.io/), [Homepage](https://scholar.google.com/citations?hl=en&user=KCiDjbkAAAAJ&view_op=list_works&sortby=pubdate)|
 |Emory|Carl Yang|[Homepage](https://www.cs.emory.edu/~jyang71/)|
-|PKU|Liantao Ma|[Homepage](http://scholar.pku.edu.cn/malt/home)|
+|Stanford|SNAP, James Zou, Yejin Choi|[Homepage](https://snap.stanford.edu/papers.html), [Homepage](https://zou-group.github.io/index.html), [Homepage](https://yejinc.github.io/)|
+|PKU|Liantao Ma, Yasha Wang|[Homepage](http://scholar.pku.edu.cn/malt/home)|
+|TJU|ADM Group|[Homepage](https://www.adm-cube.online/)|
 |Edinburgh|Ewen M Harrison|[Homepage](https://surgery.ed.ac.uk/research/cachexiagroup)|
-|Virginia|Aidong Zhang|[Homepage](https://engineering.virginia.edu/faculty/aidong-zhang)|
-|CUHK|Freedom AI|[Homepage](https://github.com/FreedomIntelligence)|
-|Stanford|SNAP|[Homepage](https://snap.stanford.edu/papers.html)|
+|Virginia|Aidong Zhang, Xuan Wang|[Homepage](https://engineering.virginia.edu/faculty/aidong-zhang), [Homepage](https://xuanwang91.github.io/)|
+|CUHK|Freedom AI, YuanWu, Michael R. Lyu|[Homepage](https://github.com/FreedomIntelligence), [Homepage](https://www.bme.cuhk.edu.hk/yuan/people.html), [Homepage](http://www.cse.cuhk.edu.hk/lyu/)|
+|CityU|Xiangyu Zhao|[Homepage](https://zhaoxyai.github.io/)|
 |Houston Methodist|Wang Lab|[Homepage](https://guangyuwanglab.github.io/web/)|
 |Mbzuai|Jianing Qiu|[Homepage](https://mbzuai.ac.ae/study/faculty/jianing-qiu/)|
-
+|DKFZ|German Cancer Research Center|[Homepage](https://www.dkfz.de/en/research)|
+|California|Yuyin Zhou|[Homepage](https://yuyinzhou.github.io/)|
+|ETH|Michael Moor|[Homepage](https://michaelmoor.me/)|
+|JOHNS HOPKINS|Suchi Saria|[Homepage](https://www.cs.jhu.edu/faculty/suchi-saria/)|
+|Cornell|Fei Wang, Claire Cardie|[Homepage](https://wcm-wanglab.github.io/index.html), [Homepage](https://www.cs.cornell.edu/home/cardie/)|
+|GE Healthcare|Xiao Cao|[Homepage](https://sites.google.com/view/danicaxiao/home)|
+|Rutgers|Mu Zhou|[Homepage](https://sites.google.com/view/mu-zhou)|
+|UT|Ying Ding, Wenqi Shi|[Homepage](https://yingding.ischool.utexas.edu/), [Homepage](https://wshi83.github.io/)|
+|UC Berkeley|Bin Yu|[Homepage](https://binyu.stat.berkeley.edu/#recent-publications-talks-news)|
+|UW|Hannaneh Hajishirzi|[Homepage](https://hannaneh.ai/)|
+|LMU Munich|Volker Tresp|[Homepage](https://www.dbs.ifi.lmu.de/~tresp/)|
+|FuDan|Zhongyu Wei|[Homepage](http://www.fudan-disc.com/people/zywei)|
+|Minnesota|Rui Zhang|[Homepage](https://ruizhang.umn.edu/)|
 
 ## 📖 Awesome Methods, Model, and Resource List
 [Back to Content](#-table-of-contents)
@@ -877,9 +904,10 @@ Your contributions are always welcome! Please contact [Xiaoquan Zhi](https://git
 
 If you find this code useful for your research, please cite our paper:
 ```bibtex
-@inproceedings{ADM2025reinv,
-  title={Reinventing Clinical Dialogue: Agentic Paradigms for LLM‑Enabled Healthcare Communication},
+@article{zhi2025reinventing,
+  title={Reinventing Clinical Dialogue: Agentic Paradigms for LLM Enabled Healthcare Communication},
   author={ADM Lab},
+  journal={arXiv preprint arXiv:2512.01453},
   year={2025}
 }
 ```
