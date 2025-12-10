@@ -174,7 +174,7 @@ This framework facilitates a systematic analysis of the intrinsic trade-offs bet
 |Harvard|Xiang Li, Faisal Mahmood Lab, Pranav Rajpurkar, Tianxi Cai|[Homepage](https://xiangli-shaun.github.io/), [Homepage](https://faisal.ai/), [Homepage](https://pranavrajpurkar.com/), [Homepage](https://dbmi.hms.harvard.edu/people/tianxi-cai)|
 |Maryland|Hanan Samet|[Homepage](https://www.cs.umd.edu/~hjs/)|
 |MIT|Paul Liang, Peter Szolovits|[Homepage](https://pliang279.github.io/), [Homepage](https://people.csail.mit.edu/psz/web/publications.html)|
-|Oxford|Tingting Zhu|[Homepage](https://eng.ox.ac.uk/people/tingting-zhu)|
+|Oxford|Tingting Zhu, David A. Clifton|[Homepage](https://eng.ox.ac.uk/people/tingting-zhu), [Homepage](https://eng.ox.ac.uk/chi)|
 |Cambridge|Vanderschaar-lab, Andreas Vlachos|[Homepage](https://www.vanderschaar-lab.com/prof-mihaela-van-der-schaar/), [Homepage](https://andreasvlachos.github.io/)|
 |NTU|Chunyan Miao|[Homepage](https://dr.ntu.edu.sg/entities/person/Miao-Chun-Yan)|
 |Tsinghua University|Yang Liu, Hong-Yu Zhou, Weizhi Ma|[Homepage](https://nlp.csai.tsinghua.edu.cn/~ly/), [Homepage](https://zhouhy.org/), [Homepage](https://mawz12.github.io/)|
@@ -202,10 +202,12 @@ This framework facilitates a systematic analysis of the intrinsic trade-offs bet
 |Cornell|Fei Wang, Claire Cardie|[Homepage](https://wcm-wanglab.github.io/index.html), [Homepage](https://www.cs.cornell.edu/home/cardie/)|
 |GE Healthcare|Xiao Cao|[Homepage](https://sites.google.com/view/danicaxiao/home)|
 |Rutgers|Mu Zhou|[Homepage](https://sites.google.com/view/mu-zhou)|
-|UT|Ying Ding|[Homepage](https://yingding.ischool.utexas.edu/)|
+|UT|Ying Ding, Wenqi Shi|[Homepage](https://yingding.ischool.utexas.edu/), [Homepage](https://wshi83.github.io/)|
 |UC Berkeley|Bin Yu|[Homepage](https://binyu.stat.berkeley.edu/#recent-publications-talks-news)|
 |UW|Hannaneh Hajishirzi|[Homepage](https://hannaneh.ai/)|
 |LMU Munich|Volker Tresp|[Homepage](https://www.dbs.ifi.lmu.de/~tresp/)|
+|FuDan|Zhongyu Wei|[Homepage](http://www.fudan-disc.com/people/zywei)|
+|Minnesota|Rui Zhang|[Homepage](https://ruizhang.umn.edu/)|
 
 ## 📖 Awesome Methods, Model, and Resource List
 ### 🤖**LSC**
