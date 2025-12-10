@@ -29,6 +29,7 @@
   </p>
 </div>
 
+<p align="center"><img src="https://github.com/xqz614/Awesome-Agentic-Clinical-Dialogue/blob/main/image/Gemini_Generated_Image_743hpq743hpq743h.png" height="500px"></p>
 
 
 ## 📘 Overview
