@@ -43,7 +43,7 @@ This framework facilitates a systematic analysis of the intrinsic trade-offs bet
   - [Recommendation Dialogue](iii-recommendation-dialogue)
   - [Supportive Dialogue](iv-supportive-dialogue)
   - [Hybrid-function Dialogue](v-hybrid-function)
-- [Leading Group](#group)
+- [Leading Group](#-leading-group)
 - [Awesome Methods, Model and Resource List](#-awesome-methods-model-and-resource-list)
   - [LSC](#lsc)
     - [Planning](#planning)
