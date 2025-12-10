@@ -43,6 +43,7 @@ This framework facilitates a systematic analysis of the intrinsic trade-offs bet
   - [Recommendation Dialogue](iii-recommendation-dialogue)
   - [Supportive Dialogue](iv-supportive-dialogue)
   - [Hybrid-function Dialogue](v-hybrid-function)
+- [Leading Group](#group)
 - [Awesome Methods, Model and Resource List](#-awesome-methods-model-and-resource-list)
   - [LSC](#lsc)
     - [Planning](#planning)
@@ -155,6 +156,9 @@ This framework facilitates a systematic analysis of the intrinsic trade-offs bet
 | **MENTAT** | 2025 | Mental Health / Hybrid | Clinician-annotated benchmark for complex psychiatric decision-making (diagnosis, triage, etc.). | [paper](https://hai.stanford.edu/research/mentat), [source](https://github.com/stanford-crfm/mentat) |
 | **MedAlpaca** | 2023 | Instruction Tuning | Collection of datasets (see Medical Meadow) used to train the MedAlpaca model series. | [paper](https://arxiv.org/abs/2304.08247), [source](https://github.com/kbressem/medAlpaca) |
 | **NoteChat** | 2023 | Generation / Hybrid | Synthetic patient-physician conversations conditioned on clinical notes (Note-to-Dialogue). | [paper](https://arxiv.org/abs/2310.15959), [source](https://github.com/believewhat/Dr.NoteAid) |
+
+## ⛪ Leading Group
+|UIUC|Jimeng Sun|[Homepage](https://www.sunlab.org/)|
 
 
 ## 📖 Awesome Methods, Model and Resource List
