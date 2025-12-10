@@ -173,7 +173,8 @@ This framework facilitates a systematic analysis of the intrinsic trade-offs bet
 |Harvard|Xiang Li, Faisal Mahmood Lab, Pranav Rajpurkar|[Homepage](https://xiangli-shaun.github.io/), [Homepage](https://faisal.ai/), [Homepage](https://pranavrajpurkar.com/)|
 |MIT|Paul Liang|[Homepage](https://pliang279.github.io/)|
 |Oxford|Tingting Zhu|[Homepage](https://eng.ox.ac.uk/people/tingting-zhu)|
-|Tsinghua University|Yang Liu|[Homepage](https://nlp.csai.tsinghua.edu.cn/~ly/)|
+|Cambridge|Vanderschaar-lab|[Homepage](https://www.vanderschaar-lab.com/prof-mihaela-van-der-schaar/)|
+|Tsinghua University|Yang Liu, Hong-Yu Zhou, Weizhi Ma|[Homepage](https://nlp.csai.tsinghua.edu.cn/~ly/), [Homepage](https://zhouhy.org/), [Homepage](https://mawz12.github.io/)|
 |UNC|Tianlong Chen, Huaxiu Yao|[Homepage](https://genai4health.github.io/), [Homepage](https://www.huaxiuyao.io/)|
 |UBC|Xiaoxiao Li|[Homepage](https://tea.ece.ubc.ca/)|
 |UIUC|Jimeng Sun,Jiawei Han|[Homepage](https://www.sunlab.org/)|
@@ -185,7 +186,7 @@ This framework facilitates a systematic analysis of the intrinsic trade-offs bet
 |PKU|Liantao Ma, Yasha Wang|[Homepage](http://scholar.pku.edu.cn/malt/home)|
 |TJU|ADM Group|[Homepage](https://www.adm-cube.online/)|
 |Edinburgh|Ewen M Harrison|[Homepage](https://surgery.ed.ac.uk/research/cachexiagroup)|
-|Virginia|Aidong Zhang|[Homepage](https://engineering.virginia.edu/faculty/aidong-zhang)|
+|Virginia|Aidong Zhang, Xuan Wang|[Homepage](https://engineering.virginia.edu/faculty/aidong-zhang), [Homepage](https://xuanwang91.github.io/)|
 |CUHK|Freedom AI, YuanWu, Michael R. Lyu|[Homepage](https://github.com/FreedomIntelligence), [Homepage](https://www.bme.cuhk.edu.hk/yuan/people.html), [Homepage](http://www.cse.cuhk.edu.hk/lyu/)|
 |CityU|Xiangyu Zhao|[Homepage](https://zhaoxyai.github.io/)|
 |Houston Methodist|Wang Lab|[Homepage](https://guangyuwanglab.github.io/web/)|
@@ -195,12 +196,9 @@ This framework facilitates a systematic analysis of the intrinsic trade-offs bet
 |ETH|Michael Moor|[Homepage](https://michaelmoor.me/)|
 |JOHNS HOPKINS|Suchi Saria|[Homepage](https://www.cs.jhu.edu/faculty/suchi-saria/)|
 |Cornell|Fei Wang|[Homepage](https://wcm-wanglab.github.io/index.html)|
-
-
-
-
-
-
+|GE Healthcare|Xiao Cao|[Homepage](https://sites.google.com/view/danicaxiao/home)|
+|Rutgers|Mu Zhou|[Homepage](https://sites.google.com/view/mu-zhou)|
+|UT|Ying Ding|[Homepage](https://yingding.ischool.utexas.edu/)|
 
 ## 📖 Awesome Methods, Model, and Resource List
 ### 🤖**LSC**
