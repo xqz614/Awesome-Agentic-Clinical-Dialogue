@@ -158,10 +158,31 @@ This framework facilitates a systematic analysis of the intrinsic trade-offs bet
 | **NoteChat** | 2023 | Generation / Hybrid | Synthetic patient-physician conversations conditioned on clinical notes (Note-to-Dialogue). | [paper](https://arxiv.org/abs/2310.15959), [source](https://github.com/believewhat/Dr.NoteAid) |
 
 ## ⛪ Leading Group
+| Institution | Leading Researcher/Group | Source |
+| :--- | :--- | :--- | 
+|Google|Google Health|[Homepage](https://health.google/pubs/)|
+|Open AI|Health AI Team|[Homepage](https://openai.com/science/)|
+|Ant Group|AI for Science Team|[Homepage](https://www.antgroup.com/en)|
+|Alibaba|Tongyi Lab|[Homepage](https://github.com/Alibaba-NLP)|
+|Shanghai AI Lab|AI for Science Team|[Homepage](https://ai4.science/)|
+|Baichuan AI|AI Lab|[Homepage](https://github.com/baichuan-inc)|
+|Tecent|Jarvislab|[Homepage](https://jarvislab.tencent.com/)|
+|Huawei|NoAH|[Homepage](http://dev3.noahlab.com.hk/research.html)|
+|Microsoft Research|Hoifung Poon|[Homepage](https://scholar.google.com/citations?user=yqqmVbkAAAAJ&hl=en)|
+|TJU|ADM Group|[Homepage](https://www.adm-cube.online/)|
 |UIUC|Jimeng Sun|[Homepage](https://www.sunlab.org/)|
+|Pennsylvania|Tianyu Han, Fenglong Ma|[Homepage](https://www.tianyuhan.ai/), [Homepage](https://fenglong-ma.github.io/)|
+|Emory|Carl Yang|[Homepage](https://www.cs.emory.edu/~jyang71/)|
+|PKU|Liantao Ma|[Homepage](http://scholar.pku.edu.cn/malt/home)|
+|Edinburgh|Ewen M Harrison|[Homepage](https://surgery.ed.ac.uk/research/cachexiagroup)|
+|Virginia|Aidong Zhang|[Homepage](https://engineering.virginia.edu/faculty/aidong-zhang)|
+|CUHK|Freedom AI|[Homepage](https://github.com/FreedomIntelligence)|
+|Stanford|SNAP|[Homepage](https://snap.stanford.edu/papers.html)|
+|Houston Methodist|Wang Lab|[Homepage](https://guangyuwanglab.github.io/web/)|
+|Mbzuai|Jianing Qiu|[Homepage](https://mbzuai.ac.ae/study/faculty/jianing-qiu/)|
 
 
-## 📖 Awesome Methods, Model and Resource List
+## 📖 Awesome Methods, Model, and Resource List
 ### 🤖**LSC**
 #### 📊Planning
 - **BioGPT: generative pre-trained transformer for biomedical text generation and mining** (_Briefings Bioinf._, 2023) [paper](https://arxiv.org/abs/2210.10341), [code](https://github.com/microsoft/BioGPT)
