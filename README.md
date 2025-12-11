@@ -148,6 +148,8 @@ This framework facilitates a systematic analysis of the intrinsic trade-offs bet
 | Dataset Name | Time (Pub) | Downstream Task | Brief Description | Source |
 | :--- | :--- | :--- | :--- | :--- |
 | **EmpatheticDialogues** | 2019 | General Empathetic | Large dataset of 25k conversations grounded in emotional situations (general domain). | [paper](https://arxiv.org/abs/1811.00207), [source](https://github.com/facebookresearch/EmpatheticDialogues) |
+| **CPsyCoun** | 2024 | Mental Health Support | A high-quality, multi-turn dialogue dataset reconstructed from psychological consulting reports for realistic counseling. | [paper](https://arxiv.org/abs/2405.16433), [source](https://github.com/CAS-SIAT-XinHai/CPsyCoun) |
+| **PsySafe** | 2024 | Mental Health / Safety | Focuses on the safety aspect of supportive agents, identifying risky or toxic responses in mental health dialogue. | [paper](https://arxiv.org/abs/2401.11880), [source](https://github.com/CAS-SIAT-XinHai/PsySafe) |
 | **MELD** | 2019 | General Empathetic | Multimodal EmotionLines Dataset; textual/audio/visual emotion recognition. | [paper](https://arxiv.org/abs/1810.02508), [source](https://github.com/declare-lab/MELD) |
 | **PsyQA** | 2021 | Mental Health Support | Chinese dataset of psychological health support (Q&A) with strategy annotations. | [paper](https://arxiv.org/abs/2106.01702), [source](https://github.com/thu-coai/PsyQA) |
 | **ESConv** | 2021 | Mental Health Support | Emotional Support Conversation dataset designed to train agents in empathy and support strategies. | [paper](https://arxiv.org/abs/2106.01144), [source](https://github.com/thu-coai/Emotional-Support-Conversation) |
