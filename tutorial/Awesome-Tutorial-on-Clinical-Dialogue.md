@@ -1,4 +1,4 @@
-# Awesome-Courses-and-Tutorials-of-Agentic-Clinical-Dialogue
+# Awesome-Courses-and-Tutorials-in-Agentic-Clinical-Dialogue
 
 We are standing at the threshold of a medical renaissance where code meets care. This is the most challenging yet rewarding frontier in AI today. Ready to build the technology that will define the next decade of healthcare? Your journey begins with these world-class resources.
 
