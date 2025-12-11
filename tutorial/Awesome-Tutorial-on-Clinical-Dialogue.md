@@ -42,7 +42,7 @@ We are standing at the threshold of a medical renaissance where code meets care.
 | **Med-PaLM 2, our expert-level medical LLM** (Google Research) | Advanced Tech        | ⭐⭐⭐        | [Youtube](https://www.youtube.com/watch?v=k_-Z_TkHMqA)       |
 | **Can AI Catch What Doctors Miss?** (Eric Topol)             | Diverse Perspectives | ⭐⭐⭐        | [Youtube](https://www.youtube.com/watch?v=ll5LY7wI_Xc)       |
 | **Building AI models for healthcare** (Tensorflow)           | Advanced Tech        | ⭐⭐⭐        | [Youtube](https://www.youtube.com/watch?v=UZEstizNxkg)       |
-| **How AI Voice Agents Transform Medical Documentation in Real Time** (Microsoft) | Advanced Tech        | ⭐⭐⭐        | [Youtube]([How AI Voice Agents Transform Medical Documentation in Real Time](https://www.youtube.com/watch?v=gAmgPEj7JoU)) |
+| **How AI Voice Agents Transform Medical Documentation in Real Time** (Microsoft) | Advanced Tech        | ⭐⭐⭐        | [Youtube](https://www.youtube.com/watch?v=gAmgPEj7JoU) |
 | **AI and the future of health** (Google DeepMind)            | Diverse Perspectives | ⭐⭐⭐        | [Youtube](https://www.youtube.com/watch?v=8Q02UAfqwWU)       |
 | **Healthcare Is Adopting Generative AI, Becoming One of the Largest Tech Industries**  (NVIDIA) | Diverse Perspectives | ⭐⭐⭐        | [Youtube](https://www.youtube.com/watch?v=QPGsU1Grb5Y&list=PLZHnYvH1qtObSjC0KHFhxlCFifbe7lqCR&index=22) |
 | **Winning with Innovation: AI capabilities to empower Traditional Chinese Medicine** (Alibaba Cloud) | Applied Frontier     | ⭐⭐⭐        | [Youtube](https://www.youtube.com/watch?v=qQkbKHc4mfY)       |
