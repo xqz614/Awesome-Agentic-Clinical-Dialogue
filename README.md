@@ -46,6 +46,7 @@ This framework facilitates a systematic analysis of the intrinsic trade-offs bet
   - [Recommendation Dialogue](#iii-recommendation-dialogue)
   - [Supportive Dialogue](#iv-supportive-dialogue)
   - [Hybrid-function Dialogue](#v-hybrid-function)
+- [Tutorial and Courses](https://github.com/xqz614/Awesome-Agentic-Clinical-Dialogue/blob/main/tutorial/Awesome-Tutorial-on-Clinical-Dialogue.md)
 - [Leading Group](#-leading-group)
 - [Awesome Methods, Model and Resource List](#-awesome-methods-model-and-resource-list)
   - [LSC](#lsc)
