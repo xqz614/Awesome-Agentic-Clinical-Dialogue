@@ -184,7 +184,7 @@ This framework facilitates a systematic analysis of the intrinsic trade-offs bet
 |Open AI|Health AI Team|[Homepage](https://openai.com/science/)|
 |Ant Group|AI for Science Team|[Homepage](https://www.antgroup.com/en)|
 |Alibaba|Tongyi Lab, Damo|[Homepage](https://github.com/Alibaba-NLP), [Homepage](https://github.com/alibaba-damo-academy)|
-|Shanghai AI Lab|AI for Science Team|[Homepage](https://ai4.science/)|
+|Shanghai AI Lab|AI for Science Team, AI4Med Team|[Homepage](https://ai4.science/), [Homepage](https://github.com/MAGIC-AI4Med)|
 |Baichuan AI|AI Lab|[Homepage](https://github.com/baichuan-inc)|
 |Meta|FAIR Team|[Homepage](https://ai.meta.com/research/)|
 |Tecent|Jarvislab, Xiaobin Hu|[Homepage](https://jarvislab.tencent.com/), [Homepage](https://huuxiaobin.github.io/)|
