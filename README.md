@@ -197,7 +197,7 @@ This framework facilitates a systematic analysis of the intrinsic trade-offs bet
 |Oxford|Tingting Zhu, David A. Clifton|[Homepage](https://eng.ox.ac.uk/people/tingting-zhu), [Homepage](https://eng.ox.ac.uk/chi)|
 |Cambridge|Vanderschaar-lab, Andreas Vlachos|[Homepage](https://www.vanderschaar-lab.com/prof-mihaela-van-der-schaar/), [Homepage](https://andreasvlachos.github.io/)|
 |NTU|Chunyan Miao|[Homepage](https://dr.ntu.edu.sg/entities/person/Miao-Chun-Yan)|
-|Tsinghua University|Yang Liu, Hong-Yu Zhou, Weizhi Ma|[Homepage](https://nlp.csai.tsinghua.edu.cn/~ly/), [Homepage](https://zhouhy.org/), [Homepage](https://mawz12.github.io/)|
+|Tsinghua University|Yang Liu, Hong-Yu Zhou, Weizhi Ma, Medical Informatics Lab |[Homepage](https://nlp.csai.tsinghua.edu.cn/~ly/), [Homepage](https://zhouhy.org/), [Homepage](https://mawz12.github.io/), [Homepage](https://huggingface.co/THUMedInfo)|
 |UNC|Tianlong Chen, Huaxiu Yao|[Homepage](https://genai4health.github.io/), [Homepage](https://www.huaxiuyao.io/)|
 |Yale|Clinical NLP Lab|[Homepage](https://medicine.yale.edu/lab/clinical-nlp/team/)|
 |UBC|Xiaoxiao Li|[Homepage](https://tea.ece.ubc.ca/)|
@@ -231,6 +231,7 @@ This framework facilitates a systematic analysis of the intrinsic trade-offs bet
 |Minnesota|Rui Zhang|[Homepage](https://ruizhang.umn.edu/)|
 |Monash|AIM Lab|[Homepage](https://www.monash.edu/it/aimh-lab)|
 |USYD|Med AI Lab|[Homepage](https://www.sydney.edu.au/engineering/our-research/biomedical-healthcare-engineering/digital-health-and-biomedical-ai.html)|
+|Queensu|Medi Lab|[Homepage](https://labs.cs.queensu.ca/medilab/research/bioinformatics/)|
 |Open Source Platform|OpenMed Lab|[Homepage](https://github.com/openmedlab)|
 
 
