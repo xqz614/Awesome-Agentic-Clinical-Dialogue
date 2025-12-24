@@ -198,7 +198,7 @@ This framework facilitates a systematic analysis of the intrinsic trade-offs bet
 |Cambridge|Vanderschaar-lab, Andreas Vlachos|[Homepage](https://www.vanderschaar-lab.com/prof-mihaela-van-der-schaar/), [Homepage](https://andreasvlachos.github.io/)|
 |NTU|Chunyan Miao|[Homepage](https://dr.ntu.edu.sg/entities/person/Miao-Chun-Yan)|
 |Tsinghua University|Yang Liu, Hong-Yu Zhou, Weizhi Ma, Medical Informatics Lab |[Homepage](https://nlp.csai.tsinghua.edu.cn/~ly/), [Homepage](https://zhouhy.org/), [Homepage](https://mawz12.github.io/), [Homepage](https://huggingface.co/THUMedInfo)|
-|SJTU|Chaoyi Wu, Weidi Xie|[Homepage](https://chaoyi-wu.github.io/), [Homepage](https://weidixie.github.io/)|
+|SJTU|Chaoyi Wu, Weidi Xie, MAGIC|[Homepage](https://chaoyi-wu.github.io/), [Homepage](https://weidixie.github.io/), [Homepage](https://github.com/MAGIC-AI4Med)|
 |UNC|Tianlong Chen, Huaxiu Yao|[Homepage](https://genai4health.github.io/), [Homepage](https://www.huaxiuyao.io/)|
 |Yale|Clinical NLP Lab|[Homepage](https://medicine.yale.edu/lab/clinical-nlp/team/)|
 |UBC|Xiaoxiao Li|[Homepage](https://tea.ece.ubc.ca/)|
