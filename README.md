@@ -381,7 +381,7 @@ This framework facilitates a systematic analysis of the intrinsic trade-offs bet
 [Back to Content](#-table-of-contents)
 
 - **AlphaEvolve: A coding agent for scientific and algorithmic discovery** (_arXiv_, 2025) [paper](https://arxiv.org/abs/2506.13131)
-  > An evolutionary coding agent from DeepMind capable of autonomously discovering novel algorithms and optimizing code for scientific problems.
+  > An evolutionary coding agent from DeepMind capable of autonomously discovering novel algorithms and optimizing code for scientific problems. 
 
 - **Revolutionizing healthcare: the role of artificial intelligence in clinical practice** (_BMC Med. Educ._, 2023) [paper](https://pubmed.ncbi.nlm.nih.gov/37740191/)
   > A comprehensive review discussing the transformative impact and ethical implications of integrating AI agents into clinical workflows.
