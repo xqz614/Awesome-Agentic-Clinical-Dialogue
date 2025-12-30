@@ -212,7 +212,7 @@ This framework facilitates a systematic analysis of the intrinsic trade-offs bet
 |TJU|ADM Group|[Homepage](https://www.adm-cube.online/)|
 |Edinburgh|Ewen M Harrison|[Homepage](https://surgery.ed.ac.uk/research/cachexiagroup)|
 |Virginia|Aidong Zhang, Xuan Wang|[Homepage](https://engineering.virginia.edu/faculty/aidong-zhang), [Homepage](https://xuanwang91.github.io/)|
-|CUHK|Freedom AI, YuanWu, Michael R. Lyu|[Homepage](https://github.com/FreedomIntelligence), [Homepage](https://www.bme.cuhk.edu.hk/yuan/people.html), [Homepage](http://www.cse.cuhk.edu.hk/lyu/)|
+|CUHK|Freedom AI, YuanWu, Michael R. Lyu, Benyou Wang|[Homepage](https://github.com/FreedomIntelligence), [Homepage](https://www.bme.cuhk.edu.hk/yuan/people.html), [Homepage](http://www.cse.cuhk.edu.hk/lyu/), [Homepage](https://wabyking.github.io/old.html)|
 |CityU|Xiangyu Zhao|[Homepage](https://zhaoxyai.github.io/)|
 |Houston Methodist|Wang Lab|[Homepage](https://guangyuwanglab.github.io/web/)|
 |Mbzuai|Jianing Qiu|[Homepage](https://mbzuai.ac.ae/study/faculty/jianing-qiu/)|
