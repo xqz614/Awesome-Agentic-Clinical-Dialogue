@@ -45,7 +45,7 @@ We are standing at the threshold of a medical renaissance where code meets care.
 | :----------------------------------------------------------- | :------------------- | :--------- | :----------------------------------------------------------- |
 | **How AI is reshaping the future of healthcare and medical research** (Microsoft) | Diverse Perspectives | ⭐⭐⭐        | [Youtube](https://www.youtube.com/watch?v=N0w9uO7kH80)       |
 | **AI Transforms Health Care** (Nigam Shah, Stanford)         | Applied Frontier     | ⭐⭐⭐        | [Youtube](https://www.youtube.com/watch?v=wD1qn2i3Wb4)       |
-| **Med-PaLM 2, our expert-level medical LLM** (Google Research) | Advanced Tech        | ⭐⭐⭐        | [Youtube](https://www.youtube.com/watch?v=k_-Z_TkHMqA)       |
+| **Med-PaLM 2, our expert-level medical LLM** (Google Research) | Advanced Tech        | ⭐⭐⭐⭐        | [Youtube](https://www.youtube.com/watch?v=k_-Z_TkHMqA)       |
 | **Can AI Catch What Doctors Miss?** (Eric Topol)             | Diverse Perspectives | ⭐⭐⭐        | [Youtube](https://www.youtube.com/watch?v=ll5LY7wI_Xc)       |
 | **Building AI models for healthcare** (Tensorflow)           | Advanced Tech        | ⭐⭐⭐        | [Youtube](https://www.youtube.com/watch?v=UZEstizNxkg)       |
 | **How AI Voice Agents Transform Medical Documentation in Real Time** (Microsoft) | Advanced Tech        | ⭐⭐⭐        | [Youtube](https://www.youtube.com/watch?v=gAmgPEj7JoU) |
