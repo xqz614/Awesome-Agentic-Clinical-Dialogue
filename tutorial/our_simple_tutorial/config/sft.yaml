@@ -1,0 +1,19 @@
+defaults:
+  - sft_trainer
+  - _self_
+
+data:
+  train_files: ../data/processed/train_sft.parquet
+  val_files: ../data/processed/train_sft.parquet # Separate validation in production
+  prompt_key: prompt
+  response_key: response
+  micro_batch_size: 4  # Adjust based on GPU memory
+  max_length: 2048
+
+model:
+  path: Qwen/Qwen2.5-7B-Instruct # Base model path
+  enable_gradient_checkpointing: true
+
+trainer:
+  total_epochs: 3
+  save_checkpoint_path: checkpoints/sft
