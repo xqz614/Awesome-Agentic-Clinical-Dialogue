@@ -43,6 +43,8 @@ This processing step converts all data into a consistent format with clear role 
 
 The script also splits your data into training (80%), validation (10%), and test (10%) sets. This is crucial for proper model evaluation - you never want to test on data the model has seen during training. The processed data is saved in `../data/processed/` with clear separation between datasets.
 
+The processing script has been updated to also generate Parquet files (saved in `../data/verl_format/`). These files contain pre-formatted prompts and are specifically required for the advanced VERL training pipeline described in Step 6.
+
 ## Step 3: Test the Base Model
 
 Before training, it's valuable to evaluate the base model's performance on medical questions. This gives you a baseline for comparison.
@@ -70,7 +72,36 @@ python 3_train_sft.py --train_data ../data/processed/medical_meadow/train.json \
 
 During SFT, the model learns by comparing its predictions against the ground truth responses in your dataset. The training uses cross-entropy loss, which measures how surprised the model is by the correct answer. Over multiple epochs, the model adjusts its parameters to reduce this surprise and improve its ability to predict medical responses. Training will take some time, depending on your dataset size. You'll see a progress bar indicating that loss decreases over time. When it finishes, your model is saved in `../output/trained_model/` with a timestamp.
 
-## Step 5: Group Relative Policy Optimization (GRPO)
+## Step 5: Advanced Distributed Training with VERL (Optional)
+
+For users interested in large-scale distributed training (e.g., using FSDP, Megatron, or multi-node setups), we have integrated **Volcengine VERL**. This framework offers better scalability and configuration management via Hydra.
+
+**A. Run SFT with VERL**
+This uses the configuration defined in `config/sft.yaml` and executes the FSDP SFT trainer.
+
+```bash
+python 5_train_sft_verl.py
+、、、
+
+B. Run GRPO with VERL This uses config/grpo.yaml and our custom reward functions defined in src/reward_utils.py. Unlike the simple script in Step 5, this version is ready for scaling across multiple GPUs using Ray.
+
+、、、bash
+# Run with default settings (uses 8 GPUs per node by default in config)
+python 6_train_grpo_verl.py
+
+# Override config from command line (e.g., use only 2 GPUs)
+python 6_train_grpo_verl.py trainer.n_gpus_per_node=2
+、、、
+
+Key Differences from TRL:
+
+Data: Uses Parquet files instead of JSON.
+
+Config: All hyperparameters are managed in config/*.yaml files instead of command-line arguments.
+
+Architecture: Decouples the Actor, Rollout, and Reward computation for efficiency.
+
+## Step 6: Group Relative Policy Optimization (GRPO)
 
 After SFT provides your model with basic medical knowledge, GRPO refines its responses to improve quality and coherence. This is an advanced technique from reinforcement learning.
 
@@ -107,6 +138,12 @@ python 2_inference.py --model_path ../output/trained_model/TIMESTAMP
 
 # Test GRPO model  
 python 2_inference.py --model_path ../output/trained_model_grpo/TIMESTAMP
+
+# Test VERL SFT model (checkpoints are saved in the configured path)
+python 2_inference.py --model_path ../checkpoints/sft/final_model
+
+# Test VERL GRPO model
+python 2_inference.py --model_path ../checkpoints/grpo/final_model
 ```
 
 Look for improvements in ROUGE-L scores (measuring response relevance) and in qualitative factors such as response coherence and medical accuracy. The SFT model should show significant improvement over the base model, while GRPO provides more subtle refinements in response quality.
