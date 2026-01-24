@@ -3,6 +3,7 @@ Dataset Processing Script
 Processes downloaded datasets into unified format
 """
 
+import pandas as pd
 import os
 from pathlib import Path
 from datasets import load_from_disk
@@ -246,6 +247,42 @@ def merge_datasets():
         print(f"Failed to merge datasets: {e}")
         return None
 
+def process_data_for_verl(raw_data_path, output_dir):
+    """Convert raw data to verl-compatible Parquet format."""
+    os.makedirs(output_dir, exist_ok=True)
+    
+    # Load raw data (Mocking clinical data here)
+    raw_data = [
+        {
+            "instruction": "User: I have a headache and nausea.\nDoctor:",
+            "label": "I suggest you visit the neurology department immediately..."
+        }
+        # ... load actual data here
+    ]
+
+    df = pd.DataFrame(raw_data)
+    
+    # 1. SFT Format: Requires 'prompt' and 'response'
+    sft_df = pd.DataFrame()
+    sft_df['prompt'] = df['instruction']
+    sft_df['response'] = df['label']
+    
+    # 2. GRPO/RL Format
+    # 'reward_model_input': used for reward calculation (usually prompt)
+    # 'ground_truth': used for rule-based reward scoring
+    rl_df = pd.DataFrame()
+    rl_df['data_source'] = ['clinical_medical'] * len(df)
+    rl_df['prompt'] = [{
+        "role": "user", "content": x
+    } for x in df['instruction']] # Chat format preferred
+    rl_df['ability'] = ["medical"] * len(df)
+    rl_df['reward_model_input'] = rl_df['prompt'] 
+    rl_df['ground_truth'] = df['label']
+
+    # Save to Parquet
+    sft_df.to_parquet(os.path.join(output_dir, 'train_sft.parquet'))
+    rl_df.to_parquet(os.path.join(output_dir, 'train_rl.parquet'))
+    print(f"Data saved to {output_dir}")
 
 def main():
     """Main function"""
