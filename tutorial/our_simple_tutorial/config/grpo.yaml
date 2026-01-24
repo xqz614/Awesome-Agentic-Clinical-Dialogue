@@ -1,0 +1,37 @@
+defaults:
+  - ppo_trainer
+  - _self_
+
+system:
+  vllm_gpu_memory_utilization: 0.6 # Reserve memory for VLLM inference
+
+algorithm:
+  adv_estimator: grpo  # Core: Specify GRPO estimator
+  kl_ctrl:
+    kl_coef: 0.001
+    type: fixed
+
+actor:
+  strategy: fsdb  # Use FSDP strategy
+  optim:
+    lr: 1e-6
+
+# GRPO does not require a Critic model; disable learning
+critic:
+  optim:
+    lr: 0
+  strategy: fsdb
+
+data:
+  train_files: ../data/processed/train_rl.parquet
+  val_files: ../data/processed/train_rl.parquet
+  reward_metric: medical_compliance  # Must match the name registered in src/reward_utils.py
+  max_prompt_length: 1024
+  max_response_length: 1024
+  rollout_batch_size: 1024 
+  n_samples: 8 # GRPO group size (samples per prompt)
+
+trainer:
+  total_epochs: 1
+  save_checkpoint_path: checkpoints/grpo
+  n_gpus_per_node: 8 # Adjust based on hardware
