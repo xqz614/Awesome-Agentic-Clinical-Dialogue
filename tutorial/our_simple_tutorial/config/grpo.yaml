@@ -16,7 +16,7 @@ actor:
   optim:
     lr: 1e-6
 
-# GRPO does not require a Critic model; disable learning
+# GRPO does not require a Critic model; disable learning；
 critic:
   optim:
     lr: 0
