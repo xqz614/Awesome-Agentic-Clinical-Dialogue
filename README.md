@@ -327,7 +327,7 @@ This framework facilitates a systematic analysis of the intrinsic trade-offs bet
   > Establishes a comprehensive benchmark and evaluation dataset specifically designed to detect and analyze hallucinations in medical vision-language models.
 
 - **The FAIIR conversational AI agent assistant for youth mental health service provision** (_npj Digit. Med._, 2025) [paper](https://www.nature.com/articles/s41746-025-01647-6)
-  > Presents FAIIR, a conversational agent designed to assist in the triage and service provision for youth mental health, reducing clinician workload.
+  > Presents FAIIR, a conversational agent designed to assist in the triage and service provision for youth mental health, reducing clinician workload. 
 
 - **Galactica: A Large Language Model for Science** (_arXiv_, 2022) [paper](https://arxiv.org/abs/2211.09085), [code](https://github.com/paperswithcode/galgal)
   > A large language model trained on a massive corpus of scientific knowledge, designed to store, reason, and generate scientific content.
