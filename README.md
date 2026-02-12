@@ -755,7 +755,7 @@ This framework facilitates a systematic analysis of the intrinsic trade-offs bet
 - **HealthBranches: Synthesizing Clinically-Grounded Question Answering Datasets via Decision Pathways** (_arXiv_, 2025) [paper](https://arxiv.org/abs/2508.07308)
   > Generates synthetic QA datasets by simulating clinical decision pathways (branches), ensuring the data reflects realistic diagnostic logic.
 
-- **Streamlining evidence based clinical recommendations with large language models** (_npj Digital Medicine_, 2025) [paper](https://www.nature.com/articles/s41746-025-02273-y)
+- **Streamlining evidence based clinical recommendations with large language models** (_npj Digital Medicine_, 2025) [paper](https://www.nature.com/articles/s41746-025-02273-y), [code](https://github.com/somewordstoolate/Quicker)
   > A comprehensive study on using LLMs to translate clinical questions directly into evidence-based recommendations, evaluating their utility in decision support.
 
 - **CMQCIC-Bench: A Chinese Benchmark for Evaluating Large Language Models in Medical Quality Control Indicator Calculation** (_arXiv_, 2025) [paper](https://arxiv.org/abs/2502.11703)
